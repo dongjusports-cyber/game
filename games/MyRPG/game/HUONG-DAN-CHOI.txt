@@ -1,0 +1,22 @@
+Tam Quoc Chi 2 — CLICK AND PLAY
+================================
+
+  git pull
+  git lfs pull
+
+  Double-click:  PLAY.bat
+
+Xong. Khong can mount, khong can Python, khong can sua config.
+
+PLAY.bat tu dong:
+  1. Tao dia CD (Sango2_disc.bin tu .img)
+  2. Deploy font + EXE tieng Viet co dau
+  3. Mo DOSBox-X — mount C: + D: (nhac CD)
+  4. Chay SAN2-VN.EXE
+
+Can cai DOSBox-X: https://dosbox-x.com/
+  (tu tim: C:\DOSBox-X\ hoac Program Files)
+
+Can Git LFS 1 lan:  git lfs pull  (tai Sango2.img ~611MB)
+
+Phim: Alt+Enter fullscreen | Ctrl+F9 thoat

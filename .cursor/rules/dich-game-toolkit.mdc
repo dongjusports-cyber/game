@@ -1,0 +1,91 @@
+---
+description: Workflow việt hóa game — dùng khi user trỏ toolkit Dich_game + thư mục game
+globs:
+alwaysApply: false
+---
+
+# Dich_game — Hướng dẫn Cursor Cloud Agent
+
+## Bối cảnh
+
+User có **2 thư mục tách biệt**:
+
+1. **Toolkit** — repo/thư mục `Dich_game` (công cụ, profile, rules)
+2. **Game workspace** — thư mục dịch từng game (có `dich.game.json`)
+
+User sẽ chỉ Cursor Cloud vào cả hai. Nhiệm vụ agent: dùng toolkit để việt hóa game workspace.
+
+## Cấu trúc game workspace (sau `dich.py init`)
+
+```
+MyGame/
+├── dich.game.json      ← config encoding, profile font
+├── game/               ← file game gốc (.exe, .dat…)
+├── strings/
+│   ├── extracted.csv   ← chuỗi CN/JP trích ra
+│   ├── vi.csv          ← bản dịch tiếng Việt (user/agent điền)
+│   └── insured.csv     ← sau fit 3 tầng bảo hiểm
+├── font/               ← atlas font VI output
+├── patch/              ← file patch (agent tạo)
+└── notes/              ← ghi chú reverse-engineer
+```
+
+## Quy trình chuẩn
+
+```bash
+# 1. Khởi tạo (1 lần / game)
+python3 dich.py init /path/to/MyGame --encoding gbk --profile win95_16_composite
+
+# 2. Copy file game vào MyGame/game/
+
+# 3. Pipeline tự động
+python3 dich.py extract --game /path/to/MyGame
+# → Agent dịch strings/extracted.csv → strings/vi.csv
+python3 dich.py build-font --game /path/to/MyGame
+python3 dich.py fit --game /path/to/MyGame
+python3 dich.py check --game /path/to/MyGame
+
+# Hoặc gộp (sau khi vi.csv đã có):
+python3 dich.py pipeline --game /path/to/MyGame
+```
+
+## Encoding game
+
+| Nguồn | `--encoding` | Profile gợi ý |
+|-------|--------------|---------------|
+| Trung | `gbk` | `win95_16_composite`, `dos_12_composite` |
+| Nhật | `shift_jis` | `win95_16_composite`, `dos_12_composite` |
+
+## Pipeline 3 tầng bảo hiểm (strings)
+
+- **T1** — có dấu (ưu tiên)
+- **T2** — viết tắt có dấu
+- **T3** — HP/MP/EXP + VI không dấu (fallback)
+
+Tool: `tools/l10n/fit_insurance_cli.py` hoặc `dich.py fit`
+
+## Font
+
+- Composite có dấu: `profiles/win95_16_composite.json`, `dos_12_composite.json`
+- Generate: `tools/font_atlas/generate.py --profile profiles/...`
+
+## Patch game (phase thủ công / agent)
+
+1. Phân tích font gốc trong `game/` (`.fon`, tile font, pak)
+2. Khớp `cell_width/height` trong `dich.game.json`
+3. Thay chuỗi encoding gốc bằng UTF-8/VI trong binary
+4. Hook vẽ chữ: copy `runtime/vi_text.c` + `font/vi_glyphs.h`
+5. Output patch vào `patch/`
+
+## Rules tùy chỉnh
+
+- `tools/l10n/insurance_tiers.json` — EN terms T3
+- `tools/l10n/paraphrase_rules.json` — paraphrase T1
+- `tools/l10n/abbrev_rules.json` — viết tắt T2
+
+## Lưu ý agent
+
+- **Không** sửa toolkit khi chỉ cần dịch 1 game — sửa `dich.game.json` và files trong game workspace
+- Luôn chạy `dich.py status --game ...` trước khi bắt đầu
+- Ưu tiên T1/T2 có dấu; T3 chỉ khi UI chật
+- Ghi reverse-engineer vào `notes/`

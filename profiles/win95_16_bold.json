@@ -1,0 +1,17 @@
+{
+  "name": "win95_16_bold",
+  "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+  "size": 16,
+  "padding": 1,
+  "cols": 16,
+  "render": "pixel",
+  "scale": 4,
+  "bold": false,
+  "one_bit": false,
+  "cell_width": 16,
+  "cell_height": 16,
+  "monospace": true,
+  "chars": "chars_vi.txt",
+  "out": "output/win95_16_bold",
+  "notes": "Tiêu đề / tên skill — đậm hơn body text"
+}

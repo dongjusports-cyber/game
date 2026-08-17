@@ -1,0 +1,83 @@
+{
+  "_comment": "3 tầng bảo hiểm việt hóa — ưu tiên từ T1 (cao) xuống T3 (fallback)",
+  "tiers": {
+    "T1": {
+      "label": "Cao cấp — tiếng Việt CÓ DẤU",
+      "description": "Paraphrase giữ thanh điệu, font composite FreeType",
+      "tool": "smart_fit"
+    },
+    "T2": {
+      "label": "Chuẩn — viết tắt CÓ DẤU",
+      "description": "Viết tắt từ điển, siêu ngắn — vẫn giữ dấu khi có thể",
+      "tool": "fit_text",
+      "allow_no_diacritics": false
+    },
+    "T3": {
+      "label": "Bảo hiểm — EN game terms + VI không dấu",
+      "description": "HP/MP/EXP/LV + viết tắt + bỏ dấu — luôn vừa cell",
+      "tool": "fit_text",
+      "allow_no_diacritics": true,
+      "use_english_terms": true
+    }
+  },
+  "english_terms": [
+    ["sinh mạng", "HP"],
+    ["Sinh mạng", "HP"],
+    ["máu", "HP"],
+    ["Máu", "HP"],
+    ["điểm máu", "HP"],
+    ["năng lượng", "MP"],
+    ["Năng lượng", "MP"],
+    ["mana", "MP"],
+    ["Mana", "MP"],
+    ["phép", "MP"],
+    ["kinh nghiệm", "EXP"],
+    ["Kinh nghiệm", "EXP"],
+    ["cấp độ", "LV"],
+    ["Cấp độ", "LV"],
+    ["cấp", "LV"],
+    ["Cấp", "LV"],
+    ["sức tấn công", "ATK"],
+    ["tấn công", "ATK"],
+    ["Tấn công", "ATK"],
+    ["phòng thủ", "DEF"],
+    ["Phòng thủ", "DEF"],
+    ["may mắn", "LUK"],
+    ["tốc độ", "SPD"],
+    ["Tốc độ", "SPD"],
+    ["vật phẩm", "Item"],
+    ["Vật phẩm", "Item"],
+    ["kỹ năng", "Skill"],
+    ["Kỹ năng", "Skill"],
+    ["nhiệm vụ", "Quest"],
+    ["Nhiệm vụ", "Quest"],
+    ["trang bị", "Equip"],
+    ["Trang bị", "Equip"],
+    ["bắt đầu", "Start"],
+    ["Bắt đầu", "Start"],
+    ["tiếp tục", "Cont"],
+    ["Tiếp tục", "Cont"],
+    ["lưu", "Save"],
+    ["Lưu", "Save"],
+    ["tải", "Load"],
+    ["Tải", "Load"],
+    ["thoát", "Exit"],
+    ["Thoát", "Exit"],
+    ["cài đặt", "Setup"],
+    ["Cài đặt", "Setup"],
+    ["menu", "Menu"],
+    ["Menu", "Menu"]
+  ],
+  "tier3_phrases": [
+    ["Chào mừng đến với trò chơi", "Chao!"],
+    ["Chào mừng", "Chao!"],
+    ["Xin chào", "Chao!"],
+    ["Bắt đầu chơi", "Start"],
+    ["Trò chơi", "Game"],
+    ["Nhân vật", "Char"],
+    ["Hệ thống", "Sys"],
+    ["HP và MP còn đầy", "HP MP full"],
+    ["Sinh mạng và năng lượng còn đầy", "HP MP full"],
+    ["Sinh mạng và năng lượng", "HP MP"]
+  ]
+}

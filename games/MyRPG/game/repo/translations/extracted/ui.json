@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ui_042E18",
+    "file": "SAN2.EXE",
+    "category": "ui",
+    "offset": 273944,
+    "raw_hex": "b67da96cb773b943c0b8",
+    "raw_bytes": 10,
+    "ascii_max": 10,
+    "original": "開始新遊戲",
+    "translated": "Choi moi",
+    "abbrev": "Choi moi",
+    "status": "done"
+  },
+  {
+    "id": "ui_042E60",
+    "file": "SAN2.EXE",
+    "category": "ui",
+    "offset": 274016,
+    "raw_hex": "c5aaa8fac2c2b943c0b8",
+    "raw_bytes": 10,
+    "ascii_max": 10,
+    "original": "讀取舊遊戲",
+    "translated": "Doc save",
+    "abbrev": "Doc save",
+    "status": "done"
+  },
+  {
+    "id": "ui_042EA8",
+    "file": "SAN2.EXE",
+    "category": "ui",
+    "offset": 274088,
+    "raw_hex": "b3d0b379b773a8a4a6e2",
+    "raw_bytes": 10,
+    "ascii_max": 10,
+    "original": "創造新角色",
+    "translated": "Tao nhan vat",
+    "abbrev": "Tao NV",
+    "status": "done"
+  }
+]

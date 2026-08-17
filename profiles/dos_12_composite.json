@@ -1,0 +1,19 @@
+{
+  "name": "dos_12_composite",
+  "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+  "size": 9,
+  "padding": 0,
+  "cols": 16,
+  "render": "pixel",
+  "scale": 4,
+  "composite": true,
+  "engine": "freetype",
+  "one_bit": true,
+  "threshold": 130,
+  "cell_width": 12,
+  "cell_height": 12,
+  "monospace": true,
+  "chars": "chars_vi.txt",
+  "out": "output/dos_12_composite",
+  "notes": "Composite 12×12 1-bit DOS — dấu tiếng Việt tách vùng"
+}

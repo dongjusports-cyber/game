@@ -1,0 +1,54 @@
+[
+  {
+    "id": "name_0FC570",
+    "file": "SAN2.EXE",
+    "category": "name",
+    "offset": 1033584,
+    "raw_hex": "bc42b3c6",
+    "raw_bytes": 4,
+    "ascii_max": 4,
+    "original": "劉備",
+    "translated": "Luu Bi",
+    "abbrev": "L.Bi",
+    "status": "done"
+  },
+  {
+    "id": "name_0FC4B8",
+    "file": "SAN2.EXE",
+    "category": "name",
+    "offset": 1033400,
+    "raw_hex": "bbafb6b3",
+    "raw_bytes": 4,
+    "ascii_max": 4,
+    "original": "趙雲",
+    "translated": "Trieu Van",
+    "abbrev": "T.Va",
+    "status": "done"
+  },
+  {
+    "id": "name_0FC718",
+    "file": "SAN2.EXE",
+    "category": "name",
+    "offset": 1034008,
+    "raw_hex": "bdd1b8afab47",
+    "raw_bytes": 6,
+    "ascii_max": 6,
+    "original": "諸葛亮",
+    "translated": "G.C.Luong",
+    "abbrev": "GCLg",
+    "status": "done"
+  },
+  {
+    "id": "name_0FC9A8",
+    "file": "SAN2.EXE",
+    "category": "name",
+    "offset": 1034664,
+    "raw_hex": "c3f6a6d0",
+    "raw_bytes": 4,
+    "ascii_max": 4,
+    "original": "關羽",
+    "translated": "Quan Vu",
+    "abbrev": "Q.Vu",
+    "status": "done"
+  }
+]

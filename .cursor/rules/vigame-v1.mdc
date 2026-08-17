@@ -1,0 +1,60 @@
+---
+description: VigameV1.0 — Việt hóa game Trung/Nhật retro. Đọc khi user dùng toolkit hoặc dịch game.
+globs:
+alwaysApply: true
+---
+
+# VigameV1.0 — Cursor Agent Rules
+
+## Đọc trước khi làm việc
+
+1. `docs/00-START-HERE.md`
+2. `docs/AI_MEMORY.md`
+3. `docs/AI_AGENT_GUIDE.md`
+4. `{game}/dich.game.json`
+
+## Mô hình 2 thư mục
+
+- **Toolkit** `VigameV1.0/` — công cụ, không sửa khi chỉ dịch 1 game
+- **Game workspace** — `dich.game.json`, strings, font, patch, notes
+
+## Mục tiêu
+
+**Việt hóa CÓ DẤU tối đa** — T1/T2 trước, T3 (không dấu) chỉ fallback.
+
+## Font mode — BẮT BUỘC đọc dich.game.json
+
+| font_mode | Lệnh build | Output |
+|-----------|------------|--------|
+| `syllable` | `build-font-syllable` + `encode` | syllable_map.json, vi.gbk.csv |
+| `letter` | `build-font` | atlas.json, vi_glyphs.h |
+
+Syllable: 1 tiếng = 1 ô GBK. `"Trung Quốc"` = 2 cells.
+
+## Quy trình
+
+```bash
+python3 dich.py status --game PATH
+python3 dich.py extract --game PATH
+# Dịch strings/vi.csv UTF-8 có dấu
+python3 dich.py pipeline --game PATH
+```
+
+## Không được
+
+- Bỏ dấu khi chưa thử fit T1/T2
+- Sửa toolkit khi chỉ cần dịch game
+- Deploy cloud/VPS (user dùng local D:\Game)
+- Build font trước khi vi.csv đủ nội dung
+
+## Attachments khi user hỏi
+
+Xem `docs/AI_ATTACHMENTS_CHECKLIST.md`
+
+## Patch
+
+Ghi reverse notes vào `{game}/notes/`, output vào `{game}/patch/`
+
+## Docs đầy đủ
+
+`docs/` — ARCHITECTURE, TECH_STACK, SYLLABLE_MODE, TROUBLESHOOTING

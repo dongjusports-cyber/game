@@ -1,0 +1,19 @@
+=== CAU TRUC (D:\Game\SAN) ===
+
+SANGO2\          Game da cai
+repo\            Tool viet hoa
+Play Sango2 VN.bat
+Install Sango2.bat
+Apply Crack.bat
+
+CD: D:\Game\VigameV1.0\games\MyRPG\game\Sango2\Sango2.ccd
+
+=== CAI & CHOI ===
+
+1. Install Sango2.bat  ->  Apply Crack.bat
+2. repo\scripts\build_vn_release.bat  (neu can build lai ban dich)
+3. Play Sango2 VN.bat
+
+Neu con thu muc D:\Game\Sango2 cu: chay "Xoa thu muc cu.bat"
+
+Phim DOSBox-X: Alt+Enter, Ctrl+F9 thoat

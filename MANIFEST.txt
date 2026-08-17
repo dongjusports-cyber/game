@@ -1,0 +1,8 @@
+VigameV1.0
+Version: VigameV1.0
+Built: 2026-08-14 15:48 UTC
+Files: 97
+
+Đọc docs/00-START-HERE.md
+Windows: INSTALL_WINDOWS.md
+AI Agent: docs/AI_AGENT_GUIDE.md + docs/AI_MEMORY.md

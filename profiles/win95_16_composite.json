@@ -1,0 +1,18 @@
+{
+  "name": "win95_16_composite",
+  "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+  "size": 12,
+  "padding": 0,
+  "cols": 16,
+  "render": "pixel",
+  "scale": 4,
+  "composite": true,
+  "engine": "freetype",
+  "one_bit": false,
+  "cell_width": 16,
+  "cell_height": 16,
+  "monospace": true,
+  "chars": "chars_vi.txt",
+  "out": "output/win95_16_composite",
+  "notes": "Composite base+dấu + FreeType autohint — tiếng Việt CÓ DẤU trong 16×16"
+}

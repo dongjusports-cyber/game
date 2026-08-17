@@ -1,0 +1,17 @@
+---
+description: Huong dan Cloud Agent lam viec tren repo dich Sango II
+alwaysApply: true
+---
+
+# Sango II Cloud Agent
+
+Repo dich game DOS Tam Quoc Chi 2. Doc `AGENTS.md` va `ROADMAP.md`.
+
+Moi task:
+1. Pull latest
+2. Dich mot batch JSON (50-100 dong) theo `.cursor/rules/sango2-translation.mdc`
+3. Commit + push
+
+Khong extract lai file da co tru khi SAN2.EXE goc doi. Khong commit .EXE/.IMG.
+
+Cloud prompt ngan: "Dich translations/extracted/name.json batch tiep theo, commit push."

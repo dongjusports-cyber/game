@@ -1,0 +1,53 @@
+{
+  "_comment": "Paraphrase GIỮ DẤU — ưu tiên nghĩa + ngắn, không bỏ thanh điệu",
+  "exact": [
+    ["Chào mừng đến với trò chơi", "Chào!"],
+    ["Chào mừng đến với trò chơi", "Chào mừng!"],
+    ["Chào mừng đến với", "Chào!"],
+    ["Bắt đầu chơi", "Bắt đầu"],
+    ["Tiếp tục chơi", "Tiếp tục"],
+    ["Xin chào, dũng sĩ!", "Chào dũng sĩ!"],
+    ["Xin chào", "Chào!"],
+    ["Nhân vật chính", "N.vật"],
+    ["Hệ thống menu", "Menu"],
+    ["Cài đặt game", "Cài đặt"],
+    ["Lưu trò chơi", "Lưu"],
+    ["Tải trò chơi", "Tải"]
+  ],
+  "synonyms": [
+    ["đến với", "vào"],
+    ["trò chơi", "game"],
+    ["Trò chơi", "Game"],
+    ["rất mạnh", "mạnh"],
+    ["rất yếu", "yếu"],
+    ["sinh mạng", "máu"],
+    ["Sinh mạng", "Máu"],
+    ["phép thuật", "phép"],
+    ["Phép thuật", "Phép"],
+    ["kinh nghiệm", "K.nghiệm"],
+    ["Kinh nghiệm", "K.nghiệm"],
+    ["nhiệm vụ", "N.vụ"],
+    ["Nhiệm vụ", "N.vụ"],
+    ["tấn công", "Đánh"],
+    ["Tấn công", "Đánh"],
+    ["phòng thủ", "Thủ"],
+    ["Phòng thủ", "Thủ"],
+    ["vật phẩm", "Đồ"],
+    ["Vật phẩm", "Đồ"],
+    ["kỹ năng", "Skill"],
+    ["Kỹ năng", "Skill"],
+    ["cấp độ", "Cấp"],
+    ["Cấp độ", "Cấp"],
+    ["bạn có", "bạn"],
+    ["có muốn", "muốn"],
+    ["hãy chọn", "Chọn"],
+    ["Hãy chọn", "Chọn"]
+  ],
+  "patterns": [
+    {"match": "([Cc])hào mừng bạn đến với (.+)", "replace": "Chào mừng \\2!"},
+    {"match": "([Bb])ạn có muốn (.+) không\\?", "replace": "Muốn \\2?"},
+    {"match": "([Hh])ãy (.+) đi", "replace": "\\2 đi!"},
+    {"match": "([Đđ])ây là (.+)", "replace": "Đây: \\2"},
+    {"match": "([Cc])húc mừng bạn (.+)", "replace": "Chúc mừng! \\2"}
+  ]
+}

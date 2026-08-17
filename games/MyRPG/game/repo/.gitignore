@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.vscode/
+Thumbs.db
+*.bak
+# Khong commit game goc
+*.EXE
+*.COM
+*.IMG
+*.GRP
+*.PAT
+config/paths.env

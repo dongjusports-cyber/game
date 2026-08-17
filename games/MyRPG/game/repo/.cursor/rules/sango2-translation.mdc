@@ -1,0 +1,21 @@
+---
+description: Quy tac dich Sango II sang tieng Viet khong dau (JSON translations)
+globs: translations/**/*.json
+alwaysApply: false
+---
+
+# Sango II Translation Rules
+
+- Doc `docs/HUONG-DAN-VIET-TAT.md` truoc khi dich.
+- Moi entry JSON: dien `translated` (day du) va `abbrev` (trong game).
+- `abbrev` chi dung ASCII a-z A-Z 0-9 space — KHONG dau tieng Viet.
+- Bat buoc: `len(abbrev) <= ascii_max`.
+- Giu nguyen `id`, `offset`, `raw_hex`, `file`, `category` — chi sua translated/abbrev/status.
+- `status`: "pending" | "sample" | "done"
+- Ten tuong/dia danh dong bo voi bang viet tat co dinh.
+
+Vi du:
+- original: 劉備, ascii_max: 6 -> abbrev: "Luu Bi"
+- original: 請選擇所扮演的新君主, ascii_max: 12 -> abbrev: "Chon quan chu"
+
+Commit message: `dich name.json: batch 1`

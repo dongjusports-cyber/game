@@ -1,0 +1,43 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.pack_staging/
+releases/
+output/
+
+# Runtime
+games/MyRPG/game/_runtime.conf
+
+# Disc images / ISO / CloneCD
+*.img
+*.bin
+*.ccd
+*.sub
+*.iso
+*.cue
+
+# Game binaries (do not publish copyrighted installs)
+*.exe
+*.EXE
+*.dat
+*.DAT
+*.pat
+*.PAT
+*.grp
+*.GRP
+*.vmc
+*.VMC
+*.wav
+*.WAV
+*.TAB
+*.tab
+
+games/MyRPG/game/CD-ROM/
+games/MyRPG/game/SANGO2/
+games/MyRPG/game/Sango2/
+games/MyRPG/game/_crack/
+games/MyRPG/game/logs/
+games/MyRPG/game/Apply Crack.bat
+games/MyRPG/game/crack.conf
+games/DemoRPG/game/*.dat
+games/DemoRPG/game/*.exe

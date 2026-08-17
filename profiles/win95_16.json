@@ -1,0 +1,17 @@
+{
+  "name": "win95_16",
+  "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+  "size": 16,
+  "padding": 1,
+  "cols": 16,
+  "render": "pixel",
+  "scale": 4,
+  "one_bit": false,
+  "cell_width": 16,
+  "cell_height": 16,
+  "monospace": true,
+  "baseline_offset": 1,
+  "chars": "chars_vi.txt",
+  "out": "output/win95_16",
+  "notes": "Font 16x16 monospace — menu/UI Win95 RPG Trung Quốc"
+}

@@ -1,0 +1,10 @@
+0	B0A1	Bắt
+1	B0A2	Chào
+2	B0A3	chào
+3	B0A4	chơi
+4	B0A5	mừng
+5	B0A6	trò
+6	B0A7	với
+7	B0A8	Xin
+8	B0A9	đầu
+9	B0AA	đến

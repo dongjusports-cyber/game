@@ -1,0 +1,3026 @@
+{
+  "misc_0FA248": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FA7B1": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FAE04": {
+    "translated": "Chien tranh",
+    "abbrev": "Chien"
+  },
+  "misc_0FAE0B": {
+    "translated": "Tuan luyen",
+    "abbrev": "Tuan"
+  },
+  "misc_0FAE13": {
+    "translated": "Van bu",
+    "abbrev": "Van bu"
+  },
+  "misc_0FAE23": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FAE33": {
+    "translated": "Phan bo binh si",
+    "abbrev": "Phan bo"
+  },
+  "misc_0FAE40": {
+    "translated": "Che tao vu khi",
+    "abbrev": "Che tao"
+  },
+  "misc_0FAE49": {
+    "translated": "Chiem binh",
+    "abbrev": "Chiem binh"
+  },
+  "misc_0FAE51": {
+    "translated": "Khai phat dat",
+    "abbrev": "Khai dat"
+  },
+  "misc_0FAE5D": {
+    "translated": "Don dien",
+    "abbrev": "Don dien"
+  },
+  "misc_0FAE65": {
+    "translated": "Khai khoang",
+    "abbrev": "Khai khoang"
+  },
+  "misc_0FAE71": {
+    "translated": "Tri thuy chong hong",
+    "abbrev": "Tri thuy"
+  },
+  "misc_0FAE7D": {
+    "translated": "Day cung tuong",
+    "abbrev": "Day tuong"
+  },
+  "misc_0FAE89": {
+    "translated": "Phat luong cuu tai",
+    "abbrev": "Phat luong"
+  },
+  "misc_0FAE95": {
+    "translated": "Thieu sat cuop pha",
+    "abbrev": "Thieu sat"
+  },
+  "misc_0FAEA1": {
+    "translated": "Dieu chinh thue suat",
+    "abbrev": "Dieu thue"
+  },
+  "misc_0FAEB0": {
+    "translated": "Mua lua",
+    "abbrev": "Mua"
+  },
+  "misc_0FAEB7": {
+    "translated": "Ban lua",
+    "abbrev": "Ban"
+  },
+  "misc_0FAEBF": {
+    "translated": "Vu khi binh si",
+    "abbrev": "Vu khi"
+  },
+  "misc_0FAEC9": {
+    "translated": "Vu khi tuong",
+    "abbrev": "Vu khi"
+  },
+  "misc_0FAEDF": {
+    "translated": "Mua ngua",
+    "abbrev": "Mua ma"
+  },
+  "misc_0FAEE5": {
+    "translated": "Trang bi bo binh",
+    "abbrev": "Bo binh"
+  },
+  "misc_0FAEF1": {
+    "translated": "Nu tien",
+    "abbrev": "Nu tien"
+  },
+  "misc_0FAEF9": {
+    "translated": "Lien nu",
+    "abbrev": "Lien nu"
+  },
+  "misc_0FAF01": {
+    "translated": "Chien thuyen",
+    "abbrev": "Chien thuyen"
+  },
+  "misc_0FAF09": {
+    "translated": "Xe phat da",
+    "abbrev": "Phat da"
+  },
+  "misc_0FAF19": {
+    "translated": "Van ti",
+    "abbrev": "Van ti"
+  },
+  "misc_0FAF21": {
+    "translated": "Can lan",
+    "abbrev": "Can lan"
+  },
+  "misc_0FAF33": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FAF3D": {
+    "translated": "Tim nhan tai",
+    "abbrev": "Tim tai"
+  },
+  "misc_0FAF49": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FAF5C": {
+    "translated": "Toan nang",
+    "abbrev": "Toan"
+  },
+  "misc_0FAF63": {
+    "translated": "Tham muu",
+    "abbrev": "Tham muu"
+  },
+  "misc_0FAF6B": {
+    "translated": "Quan su",
+    "abbrev": "Quan su"
+  },
+  "misc_0FAF71": {
+    "translated": "Noi chinh",
+    "abbrev": "Noi chinh"
+  },
+  "misc_0FAF79": {
+    "translated": "Ngoai giao",
+    "abbrev": "Ngoai giao"
+  },
+  "misc_0FAF8B": {
+    "translated": "Tuong tri",
+    "abbrev": "Tuong tri"
+  },
+  "misc_0FAF91": {
+    "translated": "Tuong manh",
+    "abbrev": "Manh tuong"
+  },
+  "misc_0FAFA1": {
+    "translated": "Quan van",
+    "abbrev": "Quan van"
+  },
+  "misc_0FAFA9": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FAFB1": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FAFB9": {
+    "translated": "Tuong Thach",
+    "abbrev": "Tuong"
+  },
+  "misc_0FAFD9": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FAFE9": {
+    "translated": "Thuy quan",
+    "abbrev": "Thuy quan"
+  },
+  "misc_0FAFFF": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF00D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF015": {
+    "translated": "Cong Vien",
+    "abbrev": "Cong Vien"
+  },
+  "misc_0FF03B": {
+    "translated": "Bo Giai",
+    "abbrev": "Bo Giai"
+  },
+  "misc_0FF05B": {
+    "translated": "Nguyen Ton",
+    "abbrev": "N.Ton"
+  },
+  "misc_0FF07F": {
+    "translated": "Tu Vien",
+    "abbrev": "Tu Vien"
+  },
+  "misc_0FF0B9": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF0C3": {
+    "translated": "Huyen Mao",
+    "abbrev": "H.Mao"
+  },
+  "misc_0FF0CB": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF0D1": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF0E3": {
+    "translated": "Mac Dung",
+    "abbrev": "Mac Dung"
+  },
+  "misc_0FF0E9": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF154": {
+    "translated": "Hieu Uy",
+    "abbrev": "Hieu Uy"
+  },
+  "misc_0FF159": {
+    "translated": "Tai Tong",
+    "abbrev": "Tai Tong"
+  },
+  "misc_0FF189": {
+    "translated": "Ky Nguyen Thuong",
+    "abbrev": "K.N.Thuong"
+  },
+  "misc_0FF191": {
+    "translated": "Dung Tan",
+    "abbrev": "Dung Tan"
+  },
+  "misc_0FF19B": {
+    "translated": "Trung Vien",
+    "abbrev": "T.Vien"
+  },
+  "misc_0FF1AF": {
+    "translated": "Nguyen Ty",
+    "abbrev": "N.Ty"
+  },
+  "misc_0FF1BB": {
+    "translated": "Cu Tu",
+    "abbrev": "Cu Tu"
+  },
+  "misc_0FF1E7": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF1ED": {
+    "translated": "Trung Hanh",
+    "abbrev": "T.Hanh"
+  },
+  "misc_0FF20D": {
+    "translated": "Van Ngan",
+    "abbrev": "Van Ngan"
+  },
+  "misc_0FF227": {
+    "translated": "Van Truong",
+    "abbrev": "V.Truong"
+  },
+  "misc_0FF23F": {
+    "translated": "Chinh Binh",
+    "abbrev": "C.Binh"
+  },
+  "misc_0FF24B": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF25B": {
+    "translated": "Si Nguyen",
+    "abbrev": "Si Nguyen"
+  },
+  "misc_0FF269": {
+    "translated": "Bach Ho",
+    "abbrev": "Bach Ho"
+  },
+  "misc_0FF271": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF277": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF28F": {
+    "translated": "Duc Thuan",
+    "abbrev": "D.Thuan"
+  },
+  "misc_0FF307": {
+    "translated": "Tran Tu Xa",
+    "abbrev": "Tu Xa"
+  },
+  "misc_0FF31D": {
+    "translated": "Tran Hanh",
+    "abbrev": "Hanh tran"
+  },
+  "misc_0FF329": {
+    "translated": "Tran Khuynh Hanh",
+    "abbrev": "Khuynh Hanh"
+  },
+  "misc_0FF335": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF344": {
+    "translated": "Tran Ky Hinh",
+    "abbrev": "Ky Hinh"
+  },
+  "misc_0FF34E": {
+    "translated": "Thap dien mai phuc",
+    "abbrev": "Mai phuc"
+  },
+  "misc_0FF35C": {
+    "translated": "Hanh nay chac khong duoc gi",
+    "abbrev": "Khong duoc"
+  },
+  "misc_0FF377": {
+    "translated": "Bach chien bat bai",
+    "abbrev": "Bach chien"
+  },
+  "misc_0FF3C7": {
+    "translated": "Chu cong nen cho nguoi tim kiem",
+    "abbrev": "Tim kiem"
+  },
+  "misc_0FF4A0": {
+    "translated": "Luu Bi",
+    "abbrev": "Luu Bi"
+  },
+  "misc_0FF4A8": {
+    "translated": "Co dong mach nha Han nen lap chi phuc hung Han that",
+    "abbrev": "Co dong mach Han lap chi phuc hung Han that"
+  },
+  "misc_0FF5E7": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FF5EF": {
+    "translated": "Nhung khi sap chet ong van dung ke thong minh de rut lui quan lon Tu Ma Y",
+    "abbrev": "Khi sap chet dung ke rut lui Tu Ma Y"
+  },
+  "misc_0FF80D": {
+    "translated": "Ket hop voi Thanh Long Yen Nguyet Dao va Xich Tho ma tao suc manh kinh nguoi",
+    "abbrev": "Thanh Long Dao va Xich Tho"
+  },
+  "misc_0FF9C9": {
+    "translated": "Cuoi cung bi am sat truoc khi chien dau bao thu Quan Vu",
+    "abbrev": "Bi am sat truoc bao thu Q.Vu"
+  },
+  "misc_0FFB45": {
+    "translated": "Trieu Van la anh hung trung nghia",
+    "abbrev": "Trieu Van trung nghia"
+  },
+  "misc_0FFCD5": {
+    "translated": "Du gan 60 tuoi van co suc manh van phu bat dang",
+    "abbrev": "Van phu bat dang"
+  },
+  "misc_0FFE1D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_0FFE25": {
+    "translated": "Tung danh ngang tay voi Hua Chu cua Nguy",
+    "abbrev": "Ngang tay Hua Chu"
+  },
+  "misc_0FFF91": {
+    "translated": "Che tai Lac Phong Pha khi Luu Bi tan cong Thuc",
+    "abbrev": "Chet tai Lac Phong Pha"
+  },
+  "misc_1000AD": {
+    "translated": "Bi Truai Mao truc xuat vi ung ho Luu Bi",
+    "abbrev": "Bi Truai Mao truc"
+  },
+  "misc_1001A9": {
+    "translated": "Dung me ruot lua Tu Thu den ben minh",
+    "abbrev": "Lua Tu Thu den"
+  },
+  "misc_100278": {
+    "translated": "Cung la tuong kha nang dong cua Thuc",
+    "abbrev": "Tuong nang dong Thuc"
+  },
+  "misc_100339": {
+    "translated": "Ong cho rang Ma Su chi biet noi hay",
+    "abbrev": "Ma Su noi hay"
+  },
+  "misc_100449": {
+    "translated": "Duoc Tao Thien gioi thieu tro than tam phuc Luu Bi",
+    "abbrev": "Tam phuc Luu Bi"
+  },
+  "misc_100504": {
+    "translated": "Sau khi Gia Cat Luong che tiep chi Bac phat Nguy nhieu lan",
+    "abbrev": "Bac phat Nguy"
+  },
+  "misc_10060D": {
+    "translated": "Tung lien thu voi Luu Phong di chien",
+    "abbrev": "Lien thu Luu Phong"
+  },
+  "misc_1006C8": {
+    "translated": "Luu Thien",
+    "abbrev": "Luu Thien"
+  },
+  "misc_1006D0": {
+    "translated": "Nhung khong thua ke tai nang va nhan duc cua cha",
+    "abbrev": "Khong thua ke cha"
+  },
+  "misc_1007BD": {
+    "translated": "Tre tuoi da noi tieng xao quyet",
+    "abbrev": "Xao quyet"
+  },
+  "misc_100993": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_100999": {
+    "translated": "Sau tu danh Dong Ngo that bai va chet vi benh nang",
+    "abbrev": "Danh Dong Ngo chet"
+  },
+  "misc_100A63": {
+    "translated": "Gia toc Tu Ma thong nhat chinh quyen chia cat",
+    "abbrev": "Tu Ma thong nhat"
+  },
+  "misc_100BA7": {
+    "translated": "Hau Uyen",
+    "abbrev": "Hau Uyen"
+  },
+  "misc_100BAF": {
+    "translated": "Tu khi Tao Thao khoi nghia mo rong lanh tho",
+    "abbrev": "Tao Thao khoi nghia"
+  },
+  "misc_100C5F": {
+    "translated": "Tha an mat bi ban trung",
+    "abbrev": "An mat bi ban"
+  },
+  "misc_100CEF": {
+    "translated": "Hua Chu",
+    "abbrev": "Hua Chu"
+  },
+  "misc_100CF5": {
+    "translated": "Nhieu lan cuu Tao Thao khoi hiem can",
+    "abbrev": "Cu Tao Thao"
+  },
+  "misc_100DB0": {
+    "translated": "Tu Hoang",
+    "abbrev": "Tu Hoang"
+  },
+  "misc_100DB5": {
+    "translated": "Tao Thao khen co phong Chu A Phu",
+    "abbrev": "Phong Chu A Phu"
+  },
+  "misc_100E45": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_100E4D": {
+    "translated": "Danh Tan Quyen quan Dong Ngo tan loan",
+    "abbrev": "Danh Dong Ngo"
+  },
+  "misc_100F25": {
+    "translated": "Danh Tao Thao kinh hoang voi Ma Sieu tai Vi Thuy",
+    "abbrev": "Ma Sieu tai Vi Thuy"
+  },
+  "misc_100FF5": {
+    "translated": "Bi Tao Thao ep uong doc tu sat",
+    "abbrev": "Bi ep tu sat"
+  },
+  "misc_1010DD": {
+    "translated": "Duoc Tuc Yu gioi thieu phuc vu Tao Thao",
+    "abbrev": "Phuc vu Tao Thao"
+  },
+  "misc_1011E1": {
+    "translated": "Lap cong khi danh Hoang Kim",
+    "abbrev": "Lap cong Hoang Kim"
+  },
+  "misc_1012C9": {
+    "translated": "Truyen cat dao si Vu Ciet bi quy nhieu",
+    "abbrev": "Cat Vu Ciet bi quy"
+  },
+  "misc_1013B0": {
+    "translated": "Ton Quyen",
+    "abbrev": "T.Quyen"
+  },
+  "misc_1013B5": {
+    "translated": "Lien thu Luu Bi danh bai Tao Thao tai Xich Bich",
+    "abbrev": "Xich Bich thang"
+  },
+  "misc_1014F9": {
+    "translated": "Gay chien thang lon cho Dong Ngo",
+    "abbrev": "Chien thang lon"
+  },
+  "misc_101669": {
+    "translated": "Cam Hinh Ba khong vi thu cuu Linh Thong",
+    "abbrev": "Cuu Linh Thong"
+  },
+  "misc_101738": {
+    "translated": "Hoang Cai",
+    "abbrev": "Hoang Cai"
+  },
+  "misc_10173D": {
+    "translated": "Hoan thanh ke hoa lien thuyen cua Chu Du",
+    "abbrev": "Hoa lien thuyen"
+  },
+  "misc_1017E4": {
+    "translated": "Lu Tu",
+    "abbrev": "Lu Tu"
+  },
+  "misc_1017E9": {
+    "translated": "Luu Bi danh xuong Giang Nam bao thu Quan Vu",
+    "abbrev": "Bao thu Quan Vu"
+  },
+  "misc_1018CF": {
+    "translated": "Theo y dinh dan quan den hang",
+    "abbrev": "Dan quan den hang"
+  },
+  "misc_1019DD": {
+    "translated": "Bi hon Quan Vu trong tiec lam chet kinh hoang",
+    "abbrev": "Hon Quan Vu lam chet"
+  },
+  "misc_101AC8": {
+    "translated": "Kien chi lien minh Luu Bi chong Tao Thao",
+    "abbrev": "Lien minh Luu Bi"
+  },
+  "misc_101BB1": {
+    "translated": "Quan Vu Truong Phi lien thu khong danh bai",
+    "abbrev": "Q.Vu T.Phi khong thang"
+  },
+  "misc_101D6D": {
+    "translated": "Dot Lac Duong ep Thien tu den Truong An",
+    "abbrev": "Dot Lac Duong"
+  },
+  "misc_101E99": {
+    "translated": "Tu lap lam vuong khi co ngoc ty",
+    "abbrev": "Tu lap vuong"
+  },
+  "misc_101F81": {
+    "translated": "So Doc Truo bao thu tron Lac Duong",
+    "abbrev": "Tron Lac Duong"
+  },
+  "misc_110DB8": {
+    "translated": "Tuong Binh",
+    "abbrev": "Tuong Binh"
+  },
+  "misc_110E40": {
+    "translated": "Bac Binh",
+    "abbrev": "Bac Binh"
+  },
+  "misc_110F50": {
+    "translated": "Tan Duong",
+    "abbrev": "Tan Duong"
+  },
+  "misc_111060": {
+    "translated": "Binh Nguyen",
+    "abbrev": "Binh Nguyen"
+  },
+  "misc_111170": {
+    "translated": "Bac Hai",
+    "abbrev": "Bac Hai"
+  },
+  "misc_111414": {
+    "translated": "Truong An",
+    "abbrev": "Truong An"
+  },
+  "misc_111524": {
+    "translated": "Thien Thuy",
+    "abbrev": "Thien Thuy"
+  },
+  "misc_111DA4": {
+    "translated": "Lang Lam",
+    "abbrev": "Lang Lam"
+  },
+  "misc_1120D7": {
+    "translated": "Sai Sang",
+    "abbrev": "Sai Sang"
+  },
+  "misc_1121E6": {
+    "translated": "Ha Te",
+    "abbrev": "Ha Te"
+  },
+  "misc_11226C": {
+    "translated": "Tu Thong",
+    "abbrev": "Tu Thong"
+  },
+  "misc_112516": {
+    "translated": "Van Nam",
+    "abbrev": "Van Nam"
+  },
+  "misc_112912": {
+    "translated": "Quan huyen tiep theo",
+    "abbrev": "Quan tiep"
+  },
+  "misc_112C72": {
+    "translated": "Phat trien thuong nghiep",
+    "abbrev": "Thuong nghiep"
+  },
+  "misc_112D02": {
+    "translated": "Day cung tuong",
+    "abbrev": "Day tuong"
+  },
+  "misc_112D92": {
+    "translated": "Thieu sat cuop pha",
+    "abbrev": "Thieu sat"
+  },
+  "misc_112EFA": {
+    "translated": "Yeu cau vien tro",
+    "abbrev": "Vien tro"
+  },
+  "misc_11301A": {
+    "translated": "Khuyen hang phuc",
+    "abbrev": "Khuyen hang"
+  },
+  "misc_113062": {
+    "translated": "Hoa giai dieu dinh",
+    "abbrev": "Hoa giai"
+  },
+  "misc_1130AA": {
+    "translated": "Trao doi tu bin",
+    "abbrev": "Trao tu bin"
+  },
+  "misc_1130F2": {
+    "translated": "Nhi ho can thuc",
+    "abbrev": "Nhi ho"
+  },
+  "misc_11313A": {
+    "translated": "Khu ho ton lang",
+    "abbrev": "Khu ho"
+  },
+  "misc_113182": {
+    "translated": "Gia thu gay nghi",
+    "abbrev": "Gia thu"
+  },
+  "misc_1131CA": {
+    "translated": "Giet nguoi dao",
+    "abbrev": "Giet dao"
+  },
+  "misc_113212": {
+    "translated": "Hon nuoc mo ca",
+    "abbrev": "Hon nuoc"
+  },
+  "misc_11325A": {
+    "translated": "Pha huy tuong thanh",
+    "abbrev": "Pha tuong"
+  },
+  "misc_11340A": {
+    "translated": "Trieu chieu tuong",
+    "abbrev": "Trieu tuong"
+  },
+  "misc_113452": {
+    "translated": "Bo nhiem quan chuc",
+    "abbrev": "Bo nhiem"
+  },
+  "misc_113572": {
+    "translated": "Thu thap tin tuc dich",
+    "abbrev": "Tin dich"
+  },
+  "misc_113602": {
+    "translated": "Hoi nghi trieu dinh",
+    "abbrev": "Hoi nghi"
+  },
+  "misc_11364A": {
+    "translated": "Tin tuc quan huyen",
+    "abbrev": "Tin quan"
+  },
+  "misc_113692": {
+    "translated": "Tin tuc tuong",
+    "abbrev": "Tin tuong"
+  },
+  "misc_1136DA": {
+    "translated": "Quan he ngoai giao",
+    "abbrev": "Ngoai giao"
+  },
+  "misc_113722": {
+    "translated": "Luu tien trinh",
+    "abbrev": "Luu game"
+  },
+  "misc_11376A": {
+    "translated": "Doc tien trinh",
+    "abbrev": "Doc game"
+  },
+  "misc_1137B2": {
+    "translated": "Bat am thanh",
+    "abbrev": "Bat am"
+  },
+  "misc_1137FA": {
+    "translated": "Bat nhac",
+    "abbrev": "Bat nhac"
+  },
+  "misc_118020": {
+    "translated": "Tham tin dich tinh",
+    "abbrev": "Tham tin"
+  },
+  "misc_1180F8": {
+    "translated": "Tran Truy Hanh",
+    "abbrev": "Truy Hanh"
+  },
+  "misc_118188": {
+    "translated": "Tran Ngan Hanh",
+    "abbrev": "Ngan Hanh"
+  },
+  "misc_118260": {
+    "translated": "Nghi ngoi tri lieu",
+    "abbrev": "Tri lieu"
+  },
+  "misc_1182A8": {
+    "translated": "Khich le si khi",
+    "abbrev": "Khich le"
+  },
+  "misc_1182F0": {
+    "translated": "Sua chua vu khi",
+    "abbrev": "Sua vu khi"
+  },
+  "misc_118338": {
+    "translated": "Ket thuc lenh",
+    "abbrev": "Ket thuc"
+  },
+  "misc_119037": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_1190D5": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_119105": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_119155": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_11916D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_11918D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_1191DD": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_119205": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_11921D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_11926F": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_11927F": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_1192FF": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_105000": {
+    "translated": "Hay mau chiem dan binh",
+    "abbrev": "Hay mau chiem dan binh"
+  },
+  "dialogue_105023": {
+    "translated": "Them tru thue nang va cac khoan dong gop",
+    "abbrev": "Them tru thue nang"
+  },
+  "dialogue_105073": {
+    "translated": "Quan ta se nhan vien tro lien tuc",
+    "abbrev": "Vien tro lien tuc"
+  },
+  "dialogue_1050A5": {
+    "translated": "La nguyen nhan song chet cua tam quan",
+    "abbrev": "Nguyen nhan tam quan"
+  },
+  "dialogue_1050E3": {
+    "translated": "La chia khoa chien thang",
+    "abbrev": "Chia khoa thang"
+  },
+  "dialogue_105101": {
+    "translated": "Dam lam nhu vay",
+    "abbrev": "Dam lam vay"
+  },
+  "dialogue_105125": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_1051C8": {
+    "translated": "Hay chon tuong dan quan xuat chinh",
+    "abbrev": "Chon tuong danh"
+  },
+  "dialogue_10528B": {
+    "translated": "So luong lua mang theo",
+    "abbrev": "So luong lua"
+  },
+  "dialogue_1052CC": {
+    "translated": "Hay chon doi van chuyen luong thao",
+    "abbrev": "Chon van luong"
+  },
+  "dialogue_1052E8": {
+    "translated": "Hay chi dinh tuong huan luyen quan",
+    "abbrev": "Chi dinh tuong"
+  },
+  "dialogue_105300": {
+    "translated": "Hay chi dinh tuong van bu vat tu",
+    "abbrev": "Chi dinh van bu"
+  },
+  "dialogue_10531F": {
+    "translated": "Toi da nhieu tuong",
+    "abbrev": "Toi da tuong"
+  },
+  "dialogue_105368": {
+    "translated": "Hay chon vu khi muon che tao",
+    "abbrev": "Chon vu khi"
+  },
+  "dialogue_10537F": {
+    "translated": "Tuong chiem binh",
+    "abbrev": "Tuong chiem"
+  },
+  "dialogue_105393": {
+    "translated": "Tuong thuc hien muu binh",
+    "abbrev": "Tuong muu binh"
+  },
+  "dialogue_1053B0": {
+    "translated": "Hay chon tuong thuc hien the binh",
+    "abbrev": "Chon the binh"
+  },
+  "dialogue_1053CB": {
+    "translated": "Chon tuong phan bo lai binh si",
+    "abbrev": "Phan bo binh"
+  },
+  "dialogue_105418": {
+    "translated": "Khong hieu ly tri tri quoc",
+    "abbrev": "Khong hieu tri quoc"
+  },
+  "dialogue_105493": {
+    "translated": "Sao co binh thua cho don dien",
+    "abbrev": "Binh thua don dien"
+  },
+  "dialogue_1054B7": {
+    "translated": "Sau vai nam duoc tram van ho lua",
+    "abbrev": "Tram van ho lua"
+  },
+  "dialogue_1054EB": {
+    "translated": "Hoa vat kho van xa",
+    "abbrev": "Hoa vat kho van"
+  },
+  "dialogue_105519": {
+    "translated": "Chac chan du tru quan nhu",
+    "abbrev": "Du tru quan nhu"
+  },
+  "dialogue_10554E": {
+    "translated": "Khong thong chinh su",
+    "abbrev": "Khong thong chinh"
+  },
+  "dialogue_105567": {
+    "translated": "Co the tich tru quan luong lon",
+    "abbrev": "Tich tru luong"
+  },
+  "dialogue_105593": {
+    "translated": "Dung tien thua sua thanh kho giu",
+    "abbrev": "Sua thanh kho"
+  },
+  "dialogue_1055BF": {
+    "translated": "Ke dich kho long chiem",
+    "abbrev": "Ke dich kho chiem"
+  },
+  "dialogue_1055F5": {
+    "translated": "Phat tan quan luong cuu dan luu lac",
+    "abbrev": "Cuu dan luu lac"
+  },
+  "dialogue_10561B": {
+    "translated": "Dan la goc quoc gia",
+    "abbrev": "Dan la goc"
+  },
+  "dialogue_105634": {
+    "translated": "Nay minh cong vi mot no gian hai dan chung",
+    "abbrev": "No gian hai dan"
+  },
+  "dialogue_1056CB": {
+    "translated": "Khoc kho dinh tue va thue cho dan",
+    "abbrev": "Dinh tue thue dan"
+  },
+  "dialogue_10574B": {
+    "translated": "Luc nay mot ho lua den hang chuc van",
+    "abbrev": "Ho lua hang van"
+  },
+  "dialogue_105789": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10579C": {
+    "translated": "Tich luong chuan bi chien la thuong sach",
+    "abbrev": "Tich luong chuan bi"
+  },
+  "dialogue_1057B1": {
+    "translated": "Ban lua de chuan bi quan tu",
+    "abbrev": "Ban lua quan tu"
+  },
+  "dialogue_1057C9": {
+    "translated": "Chi dung vu khi phong thuong",
+    "abbrev": "Vu khi phong"
+  },
+  "dialogue_1057E1": {
+    "translated": "Kiem tang anh hung",
+    "abbrev": "Kiem tang anh hung"
+  },
+  "dialogue_1057FE": {
+    "translated": "Luc nay mua nu la khong sang",
+    "abbrev": "Mua nu khong sang"
+  },
+  "dialogue_105813": {
+    "translated": "Muon ban xa phai cam nu luyen tap",
+    "abbrev": "Cam nu luyen"
+  },
+  "dialogue_105848": {
+    "translated": "Va muon lam lan nhu",
+    "abbrev": "Lam lan nhu"
+  },
+  "dialogue_10586D": {
+    "translated": "Day la ngua Dai Uyen tot cua Tay Vuc",
+    "abbrev": "Ngua Dai Uyen"
+  },
+  "dialogue_105899": {
+    "translated": "Hay chi dinh tuong khai phat dat",
+    "abbrev": "Chi dinh khai dat"
+  },
+  "dialogue_1058CD": {
+    "translated": "Tuong phat trien",
+    "abbrev": "Tuong phat trien"
+  },
+  "dialogue_1058E5": {
+    "translated": "Hay chon tuong tri thuy chong hong",
+    "abbrev": "Chon tri thuy"
+  },
+  "dialogue_105904": {
+    "translated": "Hay chi dinh tuong day cung tuong",
+    "abbrev": "Chi dinh day tuong"
+  },
+  "dialogue_10593D": {
+    "translated": "Hay chi dinh tuong thieu sat cuop pha",
+    "abbrev": "Chi dinh thieu sat"
+  },
+  "dialogue_105987": {
+    "translated": "Dieu chinh thue suat moi la",
+    "abbrev": "Dieu thue moi"
+  },
+  "dialogue_10599D": {
+    "translated": "Hay chon hang hoa muon giao dich",
+    "abbrev": "Chon hang hoa"
+  },
+  "dialogue_1059B8": {
+    "translated": "Hay phai tuong mua lua",
+    "abbrev": "Tuong mua lua"
+  },
+  "dialogue_1059DD": {
+    "translated": "Hay chi dinh tuong mua vu khi tuong",
+    "abbrev": "Mua vu khi"
+  },
+  "dialogue_1059F9": {
+    "translated": "Hay chi dinh tuong mua nu tien",
+    "abbrev": "Mua nu tien"
+  },
+  "dialogue_105A11": {
+    "translated": "Hay chi dinh tuong mua ngua",
+    "abbrev": "Mua ngua"
+  },
+  "dialogue_105A2C": {
+    "translated": "Loai ke xa lan kho thanh cong",
+    "abbrev": "Ke xa lan kho"
+  },
+  "dialogue_105A5F": {
+    "translated": "Thanh su thi khong co tuong manh tro giup",
+    "abbrev": "Khong tuong manh"
+  },
+  "dialogue_105ABF": {
+    "translated": "Chu ta dac mang thu mat den",
+    "abbrev": "Mang thu mat"
+  },
+  "dialogue_105ADC": {
+    "translated": "Dam do lo do thi tran ta",
+    "abbrev": "Do lo do thi"
+  },
+  "dialogue_105AFD": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_105B13": {
+    "translated": "Ke gian muon chia re hai ta",
+    "abbrev": "Ke gian chia re"
+  },
+  "dialogue_105B2D": {
+    "translated": "Ta quyet khong lam viec bat nghia nay",
+    "abbrev": "Khong bat nghia"
+  },
+  "dialogue_105B8C": {
+    "translated": "Chu cong dung mot thu khich dong ho",
+    "abbrev": "Thu khich dong"
+  },
+  "dialogue_105BE2": {
+    "translated": "Quan than dong long",
+    "abbrev": "Quan than dong long"
+  },
+  "dialogue_105C17": {
+    "translated": "Ngai co quan chung ngan dam",
+    "abbrev": "Quan chung ngan dam"
+  },
+  "dialogue_105C53": {
+    "translated": "Ai theo ta o day",
+    "abbrev": "Ai theo ta"
+  },
+  "dialogue_105C87": {
+    "translated": "Sao lam viec phan chu",
+    "abbrev": "Phan chu"
+  },
+  "dialogue_105CA9": {
+    "translated": "Tieu ky nay chac bi phat hien",
+    "abbrev": "Bi phat hien"
+  },
+  "dialogue_105CDD": {
+    "translated": "Ke nay se khien ke tu giet nhau",
+    "abbrev": "Ke tu giet"
+  },
+  "dialogue_105D0F": {
+    "translated": "Neu thay cho yeu tren thu",
+    "abbrev": "Thay cho yeu"
+  },
+  "dialogue_105DC5": {
+    "translated": "Rat hay",
+    "abbrev": "Rat hay"
+  },
+  "dialogue_105DD3": {
+    "translated": "Sao xoa lam roi het",
+    "abbrev": "Xoa lam roi"
+  },
+  "dialogue_105DE9": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_105E01": {
+    "translated": "Chac la ngai so ta biet chi tiet",
+    "abbrev": "So ta biet"
+  },
+  "dialogue_105E55": {
+    "translated": "Tieu ky muon lua ta",
+    "abbrev": "Tieu ky lua ta"
+  },
+  "dialogue_105E70": {
+    "translated": "Du tri da muu",
+    "abbrev": "Du tri da muu"
+  },
+  "dialogue_105E87": {
+    "translated": "Tru di mot dai hoan trong long",
+    "abbrev": "Tru dai hoan"
+  },
+  "dialogue_105EB7": {
+    "translated": "Nay mao hiem mang den bao cho tuong",
+    "abbrev": "Bao cho tuong"
+  },
+  "dialogue_105EF5": {
+    "translated": "Phan tac vo le the",
+    "abbrev": "Phan tac vo le"
+  },
+  "dialogue_105F09": {
+    "translated": "Den truoc trai",
+    "abbrev": "Den truoc trai"
+  },
+  "dialogue_105F20": {
+    "translated": "Ta muon ngai lam tien phong",
+    "abbrev": "Lam tien phong"
+  },
+  "dialogue_105F31": {
+    "translated": "Chua luyen thuan thuc",
+    "abbrev": "Chua luyen"
+  },
+  "dialogue_105F4D": {
+    "translated": "Neu quan ho luyen thuan",
+    "abbrev": "Quan luyen thuan"
+  },
+  "dialogue_105F7B": {
+    "translated": "Ta sao trung ke",
+    "abbrev": "Sao trung ke"
+  },
+  "dialogue_105FD0": {
+    "translated": "Minh cong khong can lo",
+    "abbrev": "Khong can lo"
+  },
+  "dialogue_106001": {
+    "translated": "Ke nay kho thanh cong",
+    "abbrev": "Kho thanh cong"
+  },
+  "dialogue_10601F": {
+    "translated": "Co the nhan co pha tuong thanh",
+    "abbrev": "Pha tuong thanh"
+  },
+  "dialogue_106041": {
+    "translated": "Ke kho nhu khong lua duoc ong",
+    "abbrev": "Kho nhu khong lua"
+  },
+  "dialogue_10606D": {
+    "translated": "Can mot nguoi lam gia hang cho ta",
+    "abbrev": "Gia hang"
+  },
+  "dialogue_10609D": {
+    "translated": "Hon la hang de van toan",
+    "abbrev": "Hang de van toan"
+  },
+  "dialogue_1060ED": {
+    "translated": "Ngai noi loi nay",
+    "abbrev": "Noi loi nay"
+  },
+  "dialogue_10612B": {
+    "translated": "Nhung bat loi cho quan",
+    "abbrev": "Bat loi quan"
+  },
+  "dialogue_10615B": {
+    "translated": "Khong xet mat quan vien",
+    "abbrev": "Khong xet mat"
+  },
+  "dialogue_10619D": {
+    "translated": "Cung la tuong lon mot phuong",
+    "abbrev": "Tuong lon phuong"
+  },
+  "dialogue_1061F4": {
+    "translated": "Ta tu thuo doc binh thu",
+    "abbrev": "Doc binh thu"
+  },
+  "dialogue_106213": {
+    "translated": "Nhu tre con mong cha me",
+    "abbrev": "Mong cha me"
+  },
+  "dialogue_10623B": {
+    "translated": "Neu ngai lap dai cong",
+    "abbrev": "Lap dai cong"
+  },
+  "dialogue_106283": {
+    "translated": "Dam treu choc ta",
+    "abbrev": "Treu choc ta"
+  },
+  "dialogue_1062BB": {
+    "translated": "Co dong gi cung bi ong biet",
+    "abbrev": "Ong biet het"
+  },
+  "dialogue_1062FD": {
+    "translated": "Day la ke phu do chou thao",
+    "abbrev": "Phu do chou"
+  },
+  "dialogue_106339": {
+    "translated": "Chac khong phuc vu minh cong",
+    "abbrev": "Khong phuc vu"
+  },
+  "dialogue_10635B": {
+    "translated": "Mang mot tuong lam su",
+    "abbrev": "Tuong lam su"
+  },
+  "dialogue_106387": {
+    "translated": "Tuong khong binh an",
+    "abbrev": "Khong binh an"
+  },
+  "dialogue_106399": {
+    "translated": "Nen khong dung tuong gioi quyet tu chien",
+    "abbrev": "Khong quyet tu chien"
+  },
+  "dialogue_10645F": {
+    "translated": "Theo loi ngai",
+    "abbrev": "Theo loi ngai"
+  },
+  "dialogue_10646B": {
+    "translated": "Khong the bo roi",
+    "abbrev": "Khong bo roi"
+  },
+  "dialogue_106483": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10649D": {
+    "translated": "Chi can mot thu ket noi noi ung",
+    "abbrev": "Thu ket noi ung"
+  },
+  "dialogue_1064DD": {
+    "translated": "Nay la than phan phan tac",
+    "abbrev": "Than phan phan tac"
+  },
+  "dialogue_106537": {
+    "translated": "Minh cong neu co hanh dong",
+    "abbrev": "Neu co hanh dong"
+  },
+  "dialogue_106567": {
+    "translated": "Bi van dai nhuc nha",
+    "abbrev": "Bi nhuc nha"
+  },
+  "dialogue_10659B": {
+    "translated": "Di nay chac khong thanh",
+    "abbrev": "Khong thanh"
+  },
+  "dialogue_1065C1": {
+    "translated": "Thay mot sao tuong sap roi",
+    "abbrev": "Sao tuong roi"
+  },
+  "dialogue_1065F5": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_106603": {
+    "translated": "Ban cung o day",
+    "abbrev": "Ban cung o day"
+  },
+  "dialogue_10661B": {
+    "translated": "Chung ta theo lenh chu den lay mang ngai",
+    "abbrev": "Lay mang ngai"
+  },
+  "dialogue_106647": {
+    "translated": "Sao gia mao binh linh o day",
+    "abbrev": "Gia mao binh"
+  },
+  "dialogue_106685": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_1066BE": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_1066E8": {
+    "translated": "So binh si",
+    "abbrev": "So binh si"
+  },
+  "dialogue_106706": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10671C": {
+    "translated": "Trang thai",
+    "abbrev": "Trang thai"
+  },
+  "dialogue_106799": {
+    "translated": "Ten tai da",
+    "abbrev": "Ten tai da"
+  },
+  "dialogue_1067A1": {
+    "translated": "So quan chu",
+    "abbrev": "So quan chu"
+  },
+  "dialogue_106814": {
+    "translated": "Bo cuoc",
+    "abbrev": "Bo cuoc"
+  },
+  "dialogue_10681A": {
+    "translated": "Quyet dinh",
+    "abbrev": "Quyet dinh"
+  },
+  "dialogue_10686E": {
+    "translated": "Loai bao vat",
+    "abbrev": "Loai bao"
+  },
+  "dialogue_106895": {
+    "translated": "Chua lien minh",
+    "abbrev": "Chua lien minh"
+  },
+  "dialogue_1068A1": {
+    "translated": "Lien minh cong thu",
+    "abbrev": "Cong thu LM"
+  },
+  "dialogue_1068C3": {
+    "translated": "Nguoi quan ly",
+    "abbrev": "Quan ly"
+  },
+  "dialogue_1068FB": {
+    "translated": "Chon hai quoc gia thuc hien",
+    "abbrev": "Chon 2 quoc"
+  },
+  "dialogue_10691A": {
+    "translated": "Hay chon hai tuong lam mat su",
+    "abbrev": "Chon 2 mat su"
+  },
+  "dialogue_1069ED": {
+    "translated": "Quan huyen khu ho ton lang",
+    "abbrev": "Khu ho ton lang"
+  },
+  "dialogue_106A0D": {
+    "translated": "Hay chon tuong thuc hien ke nay",
+    "abbrev": "Chon tuong"
+  },
+  "dialogue_106BA0": {
+    "translated": "Hay chon tuong lam su thuc hien ke",
+    "abbrev": "Tuong lam su"
+  },
+  "dialogue_106BCC": {
+    "translated": "Gui thu gia den",
+    "abbrev": "Gui thu gia"
+  },
+  "dialogue_106C1C": {
+    "translated": "Hay chon quan huyen giet nguoi dao",
+    "abbrev": "Giet nguoi dao"
+  },
+  "dialogue_106CEB": {
+    "translated": "Quan huyen hon nuoc mo ca",
+    "abbrev": "Hon nuoc mo ca"
+  },
+  "dialogue_106D09": {
+    "translated": "Thuc hien ke hon nuoc mo ca",
+    "abbrev": "Ke hon nuoc"
+  },
+  "dialogue_106D4B": {
+    "translated": "Hay chon quan huyen pha tuong",
+    "abbrev": "Pha tuong"
+  },
+  "dialogue_106DA9": {
+    "translated": "Hay chon quan huyen ke kho nhu",
+    "abbrev": "Ke kho nhu"
+  },
+  "dialogue_106DC7": {
+    "translated": "Tuong",
+    "abbrev": "Tuong"
+  },
+  "dialogue_106DCF": {
+    "translated": "Thuc hien ke kho nhu",
+    "abbrev": "Ke kho nhu"
+  },
+  "dialogue_106E0C": {
+    "translated": "Hay chon quan huyen dot luong",
+    "abbrev": "Dot luong"
+  },
+  "dialogue_106E4F": {
+    "translated": "Thuc hien ke dot luong",
+    "abbrev": "Ke dot luong"
+  },
+  "dialogue_106E6D": {
+    "translated": "Quan huyen du do hang",
+    "abbrev": "Du do hang"
+  },
+  "dialogue_106E8A": {
+    "translated": "Hay chon tuong muc tieu du do",
+    "abbrev": "Chon muc tieu"
+  },
+  "dialogue_106EA6": {
+    "translated": "Hay chon tuong mat su thuc hien ke",
+    "abbrev": "Mat su ke"
+  },
+  "dialogue_106EEC": {
+    "translated": "Du do hang thanh cong",
+    "abbrev": "Du do OK"
+  },
+  "dialogue_106F05": {
+    "translated": "Quan huyen ce phan",
+    "abbrev": "Ce phan"
+  },
+  "dialogue_106F21": {
+    "translated": "Tuong muc tieu ce phan",
+    "abbrev": "Muc tieu CP"
+  },
+  "dialogue_106F3D": {
+    "translated": "Tuong mat su thuc hien ke",
+    "abbrev": "Mat su ke"
+  },
+  "dialogue_106F84": {
+    "translated": "Ce phan thanh cong",
+    "abbrev": "Ce phan OK"
+  },
+  "dialogue_106F9D": {
+    "translated": "Quan huyen am sat",
+    "abbrev": "Am sat"
+  },
+  "dialogue_106FB9": {
+    "translated": "Tuong muc tieu am sat",
+    "abbrev": "Muc tieu AS"
+  },
+  "dialogue_10700C": {
+    "translated": "Thuc hien am sat",
+    "abbrev": "Am sat"
+  },
+  "dialogue_1070D8": {
+    "translated": "Quan huyen do may quan ly",
+    "abbrev": "May quan ly"
+  },
+  "dialogue_107100": {
+    "translated": "Nguoi nay khong tham tien",
+    "abbrev": "Khong tham tien"
+  },
+  "dialogue_10711F": {
+    "translated": "Nguoi nay chac se di",
+    "abbrev": "Chac se di"
+  },
+  "dialogue_107135": {
+    "translated": "Chu ta mang ngan vang tang tuong",
+    "abbrev": "Tang ngan vang"
+  },
+  "dialogue_10716D": {
+    "translated": "Ta xin ra suc chon ngua",
+    "abbrev": "Ra suc chon ngua"
+  },
+  "dialogue_1071B0": {
+    "translated": "Nguoi nay nhu Lieu Ha Hue tai the",
+    "abbrev": "Nhu Lieu Ha Hue"
+  },
+  "dialogue_1071D3": {
+    "translated": "Dang mot my nhan de thu long",
+    "abbrev": "Dang my nhan"
+  },
+  "dialogue_107213": {
+    "translated": "Tren thien ha khong anh hung khac",
+    "abbrev": "Khong anh hung"
+  },
+  "dialogue_107253": {
+    "translated": "Chu ta muon giao nu nay lam thi",
+    "abbrev": "Giao nu lam thi"
+  },
+  "dialogue_107289": {
+    "translated": "Ta se bao on nhu cho ngua",
+    "abbrev": "Bao on cho ngua"
+  },
+  "dialogue_1072A7": {
+    "translated": "Nhung lo danh ti khong lap",
+    "abbrev": "Lo danh ti"
+  },
+  "dialogue_1072D1": {
+    "translated": "Ngai muon dung mot con ngua du do",
+    "abbrev": "Ngua du do"
+  },
+  "dialogue_1072F5": {
+    "translated": "Ngai muon chiem thien ha",
+    "abbrev": "Chiem thien ha"
+  },
+  "dialogue_107311": {
+    "translated": "Nay co ngua tot mot con",
+    "abbrev": "Ngua tot mot con"
+  },
+  "dialogue_107365": {
+    "translated": "Se bao on the nao",
+    "abbrev": "Bao on the nao"
+  },
+  "dialogue_107381": {
+    "translated": "Sao hom nay o duoi ke nhu",
+    "abbrev": "O duoi ke nhu"
+  },
+  "dialogue_1073D8": {
+    "translated": "Han khong gap chu",
+    "abbrev": "Han khong gap chu"
+  },
+  "dialogue_1073E7": {
+    "translated": "Chim tot chon cay ma dau",
+    "abbrev": "Chim chon cay"
+  },
+  "dialogue_10744B": {
+    "translated": "Nhu mia kho gap mua",
+    "abbrev": "Mia gap mua"
+  },
+  "dialogue_10748B": {
+    "translated": "Chac khong bi lay chuyen",
+    "abbrev": "Khong lay chuyen"
+  },
+  "dialogue_1074A5": {
+    "translated": "Chac noi duoc",
+    "abbrev": "Chac noi duoc"
+  },
+  "dialogue_1074C1": {
+    "translated": "Xin tang minh cong",
+    "abbrev": "Tang minh cong"
+  },
+  "dialogue_1074E7": {
+    "translated": "Ta sao khong het suc phuc vu",
+    "abbrev": "Het suc phuc vu"
+  },
+  "dialogue_107533": {
+    "translated": "Von noi tieng co doc",
+    "abbrev": "Noi tieng co doc"
+  },
+  "dialogue_107560": {
+    "translated": "Minh cong nen tu den moi",
+    "abbrev": "Tu den moi"
+  },
+  "dialogue_1075A3": {
+    "translated": "Ngai la nguoi trung nghia",
+    "abbrev": "Trung nghia"
+  },
+  "dialogue_107600": {
+    "translated": "Mong ong mo dau va cuu nan",
+    "abbrev": "Mo dau cuu nan"
+  },
+  "dialogue_107665": {
+    "translated": "Mong ong vi dan chung thien ha",
+    "abbrev": "Vi dan chung"
+  },
+  "dialogue_1076B5": {
+    "translated": "Han chua gap anh hung",
+    "abbrev": "Chua gap anh hung"
+  },
+  "dialogue_1076D5": {
+    "translated": "Tuong sao bo ngoc tim da",
+    "abbrev": "Bo ngoc tim da"
+  },
+  "dialogue_10770F": {
+    "translated": "Chung khan co y kien gi",
+    "abbrev": "Y kien gi"
+  },
+  "dialogue_10772D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10774B": {
+    "translated": "Day la dao thang binh gia",
+    "abbrev": "Dao thang binh"
+  },
+  "dialogue_1077F9": {
+    "translated": "Thu hai la pha giao",
+    "abbrev": "Pha giao"
+  },
+  "dialogue_107825": {
+    "translated": "Nen quan khong dinh ma loi toan",
+    "abbrev": "Loi toan"
+  },
+  "dialogue_107891": {
+    "translated": "Khong biet ke ma biet minh",
+    "abbrev": "Khong biet ke"
+  },
+  "dialogue_1078DB": {
+    "translated": "Nen tu bao toan ma thang het",
+    "abbrev": "Tu bao thang het"
+  },
+  "dialogue_10794D": {
+    "translated": "Quan thang tien chien sau moi danh",
+    "abbrev": "Thang tien chien"
+  },
+  "dialogue_10799F": {
+    "translated": "Quoc gia ma lam vui",
+    "abbrev": "Quoc lam vui"
+  },
+  "dialogue_1079C1": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_1079FD": {
+    "translated": "Nay thoi tiet mua thu mat",
+    "abbrev": "Mua thu mat"
+  },
+  "dialogue_107A4E": {
+    "translated": "Mong quan thu nuoi quan",
+    "abbrev": "Thu nuoi quan"
+  },
+  "dialogue_107A91": {
+    "translated": "Nay ke dich co khe ha",
+    "abbrev": "Ke co khe"
+  },
+  "dialogue_107ABB": {
+    "translated": "Nay neu tien quan gap",
+    "abbrev": "Tien quan gap"
+  },
+  "dialogue_107B05": {
+    "translated": "Quan ta la doi quan luyen tap",
+    "abbrev": "Quan luyen tap"
+  },
+  "dialogue_107B57": {
+    "translated": "Hon nua quan muon hy sinh",
+    "abbrev": "Quan hy sinh"
+  },
+  "dialogue_107BF3": {
+    "translated": "Nay chi nen tu bin nghi vu",
+    "abbrev": "Tu bin nghi vu"
+  },
+  "dialogue_107C4D": {
+    "translated": "Day la ke bao quoc",
+    "abbrev": "Ke bao quoc"
+  },
+  "dialogue_107C93": {
+    "translated": "Tuong van muon lam cuong",
+    "abbrev": "Muon lam cuong"
+  },
+  "dialogue_107CED": {
+    "translated": "Neu khong xet thoi ma tien",
+    "abbrev": "Khong xet thoi"
+  },
+  "dialogue_107D43": {
+    "translated": "Ngai nen tu duc an dan",
+    "abbrev": "Tu duc an dan"
+  },
+  "dialogue_107D93": {
+    "translated": "Hom nay tuong lai muon xuat quan",
+    "abbrev": "Muon xuat quan"
+  },
+  "dialogue_107DE1": {
+    "translated": "Minh cong vi mot no ma dong quan",
+    "abbrev": "No dong quan"
+  },
+  "dialogue_107E3D": {
+    "translated": "Tuong khong nen gian ma chien",
+    "abbrev": "Khong gian chien"
+  },
+  "dialogue_107E99": {
+    "translated": "Ben chau de quan nhieu thi khong du",
+    "abbrev": "Quan nhieu khong du"
+  },
+  "dialogue_107F71": {
+    "translated": "Nay lai dong binh lam loan dan",
+    "abbrev": "Dong binh loan dan"
+  },
+  "dialogue_107FE0": {
+    "translated": "Cho co khe moi hanh dong",
+    "abbrev": "Cho co khe"
+  },
+  "dialogue_108017": {
+    "translated": "Ta muon on dinh lanh tho truoc",
+    "abbrev": "On dinh lanh tho"
+  },
+  "dialogue_10804B": {
+    "translated": "So dan loan khoi day",
+    "abbrev": "Dan loan khoi day"
+  },
+  "dialogue_108079": {
+    "translated": "Nen van luong du phong",
+    "abbrev": "Van luong du phong"
+  },
+  "dialogue_1080AF": {
+    "translated": "Nhung luong thao khong du",
+    "abbrev": "Luong khong du"
+  },
+  "dialogue_1080EB": {
+    "translated": "Cho binh linh tan ra dong trai",
+    "abbrev": "Tan ra dong trai"
+  },
+  "dialogue_108135": {
+    "translated": "Ngai nghia duc den bon phuong",
+    "abbrev": "Nghia bon phuong"
+  },
+  "dialogue_108177": {
+    "translated": "Day la uy luc chu cong",
+    "abbrev": "Uy chu cong"
+  },
+  "dialogue_1081B5": {
+    "translated": "Bon chau kho luong day lua",
+    "abbrev": "Kho luong day"
+  },
+  "dialogue_1081E7": {
+    "translated": "Tu than gia quoc tri binh thien ha",
+    "abbrev": "Tu than tri quoc"
+  },
+  "dialogue_108228": {
+    "translated": "Chung ta de la ke ngu don",
+    "abbrev": "Ke ngu don"
+  },
+  "dialogue_108253": {
+    "translated": "Khong co loi hay de dang chu cong",
+    "abbrev": "Khong loi hay"
+  },
+  "dialogue_108285": {
+    "translated": "Khong phai ke vo muu biet",
+    "abbrev": "Khong vo muu"
+  },
+  "dialogue_1082B8": {
+    "translated": "Chung khan trinh bay y kien",
+    "abbrev": "Trinh bay y kien"
+  },
+  "dialogue_1082EF": {
+    "translated": "Luu Bi la anh hung",
+    "abbrev": "Luu Bi anh hung"
+  },
+  "dialogue_108311": {
+    "translated": "Sao phai tri hoan",
+    "abbrev": "Phai tri hoan"
+  },
+  "dialogue_108347": {
+    "translated": "Sau se chet tay tieu nhan",
+    "abbrev": "Chet tieu nhan"
+  },
+  "dialogue_10838D": {
+    "translated": "Dien Phong cung ma pham thuong",
+    "abbrev": "Dien Phong cung"
+  },
+  "dialogue_108437": {
+    "translated": "Cong Lo nhu xuong trong mo",
+    "abbrev": "Cong Lo xuong"
+  },
+  "dialogue_108453": {
+    "translated": "Lu Bo nhu cho soi",
+    "abbrev": "Lu Bo cho soi"
+  },
+  "dialogue_10847F": {
+    "translated": "Chu cong neu khong thua de diet",
+    "abbrev": "Khong thua diet"
+  },
+  "dialogue_1084DC": {
+    "translated": "Danh tac Han phu vuong that",
+    "abbrev": "Danh tac Han"
+  },
+  "dialogue_10850F": {
+    "translated": "So mat nghia voi thien ha",
+    "abbrev": "Mat nghia"
+  },
+  "dialogue_10853B": {
+    "translated": "Hang ngay luyen binh",
+    "abbrev": "Luyen binh"
+  },
+  "dialogue_10857D": {
+    "translated": "Chu cong khoi nghia an thien ha",
+    "abbrev": "Khoi nghia an"
+  },
+  "dialogue_1085B7": {
+    "translated": "Cac ngai tri hoan quan tam",
+    "abbrev": "Tri hoan quan"
+  },
+  "dialogue_1085F6": {
+    "translated": "Cho luc long day du",
+    "abbrev": "Long day du"
+  },
+  "dialogue_108627": {
+    "translated": "Huyen Duc von noi tieng anh hung",
+    "abbrev": "Huyen Duc anh hung"
+  },
+  "dialogue_1086B7": {
+    "translated": "Khac voi ke bi quan truoc",
+    "abbrev": "Khac bi quan"
+  },
+  "dialogue_108721": {
+    "translated": "Chac bo luong cuong ngua don vuong",
+    "abbrev": "Bo luong don vuong"
+  },
+  "dialogue_1087A5": {
+    "translated": "Ton Sach o Giang Dong theo song",
+    "abbrev": "Ton Sach song"
+  },
+  "dialogue_1087F9": {
+    "translated": "Nay nhu ho chiem Ky Chau",
+    "abbrev": "Ho chiem Ky"
+  },
+  "dialogue_108849": {
+    "translated": "Lam ke dich bat loi",
+    "abbrev": "Ke dich bat loi"
+  },
+  "dialogue_1088B3": {
+    "translated": "Lai co vien tuong Cuong",
+    "abbrev": "Vien Cuong"
+  },
+  "dialogue_1088DB": {
+    "translated": "Hon nua co quan Cuong",
+    "abbrev": "Quan Cuong"
+  },
+  "dialogue_108905": {
+    "translated": "Nguoi Kinh Chau goi mot trong Bat Tuan",
+    "abbrev": "Bat Tuan Kinh"
+  },
+  "dialogue_108963": {
+    "translated": "Khong phai ke tham loi bo nghia",
+    "abbrev": "Khong tham loi"
+  },
+  "dialogue_1089B3": {
+    "translated": "Khong the dong quan lon lai",
+    "abbrev": "Khong dong quan"
+  },
+  "dialogue_108A17": {
+    "translated": "Moi co the tien quan dai",
+    "abbrev": "Tien quan dai"
+  },
+  "dialogue_108A3F": {
+    "translated": "Khong the khe dich",
+    "abbrev": "Khong khe dich"
+  },
+  "dialogue_108A63": {
+    "translated": "Nhu ho them can",
+    "abbrev": "Ho them can"
+  },
+  "dialogue_108A8D": {
+    "translated": "Ngai dung binh gioi",
+    "abbrev": "Dung binh gioi"
+  },
+  "dialogue_108AB9": {
+    "translated": "Khong the chien",
+    "abbrev": "Khong chien"
+  },
+  "dialogue_108AD9": {
+    "translated": "Hon la cau hoa an dan",
+    "abbrev": "Cau hoa an dan"
+  },
+  "dialogue_108B15": {
+    "translated": "Ke vo dung",
+    "abbrev": "Vo dung"
+  },
+  "dialogue_108B30": {
+    "translated": "Hon nua tri chinh nhan la goc",
+    "abbrev": "Tri chinh nhan goc"
+  },
+  "dialogue_108B5D": {
+    "translated": "Thong binh phap",
+    "abbrev": "Thong binh phap"
+  },
+  "dialogue_108B95": {
+    "translated": "Ta biet ong thuong bat man",
+    "abbrev": "Thuong bat man"
+  },
+  "dialogue_108BD7": {
+    "translated": "Khong cho doc chuoc quyen",
+    "abbrev": "Khong doc quyen"
+  },
+  "dialogue_108BF9": {
+    "translated": "Sao khong moi den",
+    "abbrev": "Khong moi den"
+  },
+  "dialogue_108C19": {
+    "translated": "Tron loan an minh o day",
+    "abbrev": "An minh o day"
+  },
+  "dialogue_108C50": {
+    "translated": "Tuong ta deu ve chu cong",
+    "abbrev": "Deu ve chu cong"
+  },
+  "dialogue_108C73": {
+    "translated": "Chac hy sinh bao on tri ngai",
+    "abbrev": "Hy sinh bao on"
+  },
+  "dialogue_108CA4": {
+    "translated": "Xong dau rot mau khong lui",
+    "abbrev": "Xong dau rot mau"
+  },
+  "dialogue_108CDD": {
+    "translated": "Anh tai thien ha ve chu cong",
+    "abbrev": "Anh tai ve chu"
+  },
+  "dialogue_108D27": {
+    "translated": "Neu lam le tam cung tim tai",
+    "abbrev": "Tam cung tim tai"
+  },
+  "dialogue_108D60": {
+    "translated": "Dong que khong tai dung",
+    "abbrev": "Dong que khong tai"
+  },
+  "dialogue_108D89": {
+    "translated": "Chu cong nen xet nhan dung tai",
+    "abbrev": "Xet nhan dung tai"
+  },
+  "dialogue_108DC1": {
+    "translated": "Chu cong thuong phat ro",
+    "abbrev": "Thuong phat ro"
+  },
+  "dialogue_108DE3": {
+    "translated": "Thuong hu thi quan oan",
+    "abbrev": "Thuong hu quan oan"
+  },
+  "dialogue_108E03": {
+    "translated": "La phap dien thien cu ac",
+    "abbrev": "Dien thien cu ac"
+  },
+  "dialogue_108E3B": {
+    "translated": "Hy sinh tan toan",
+    "abbrev": "Hy sinh tan toan"
+  },
+  "dialogue_108E57": {
+    "translated": "Khong vi mot nu ma hy sinh",
+    "abbrev": "Khong vi mot nu"
+  },
+  "dialogue_108E7D": {
+    "translated": "La tam phuc tuong manh chu cong",
+    "abbrev": "Tam phuc tuong"
+  },
+  "dialogue_108EDA": {
+    "translated": "Van tang ngua quy",
+    "abbrev": "Van tang ngua"
+  },
+  "dialogue_108F15": {
+    "translated": "Chu cong sao tang bao vat",
+    "abbrev": "Sao tang bao"
+  },
+  "dialogue_108F3B": {
+    "translated": "Dung si biet hy sinh vi gi",
+    "abbrev": "Biet hy sinh"
+  },
+  "dialogue_108F5B": {
+    "translated": "Giao cong chua cho nguoi nay",
+    "abbrev": "Giao cong chua"
+  },
+  "dialogue_108F88": {
+    "translated": "La anh tuong thoi dai",
+    "abbrev": "Anh tuong thoi"
+  },
+  "dialogue_108FC1": {
+    "translated": "Nguoi nay chac sinh long phan",
+    "abbrev": "Sinh long phan"
+  },
+  "dialogue_108FDD": {
+    "translated": "La minh chau nem toi",
+    "abbrev": "Minh chau nem"
+  },
+  "dialogue_10900B": {
+    "translated": "La tai an bang dinh quoc",
+    "abbrev": "An bang dinh"
+  },
+  "dialogue_10902F": {
+    "translated": "Minh cong neu truc xuat",
+    "abbrev": "Neu truc xuat"
+  },
+  "dialogue_109061": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10908B": {
+    "translated": "Hon nua viec chua ro",
+    "abbrev": "Viec chua ro"
+  },
+  "dialogue_1090B9": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_1090E5": {
+    "translated": "Neu khong diet tan goc",
+    "abbrev": "Khong diet goc"
+  },
+  "dialogue_109108": {
+    "translated": "Hom nay khong giet tac",
+    "abbrev": "Khong giet tac"
+  },
+  "dialogue_109121": {
+    "translated": "Giu ngai lam gi",
+    "abbrev": "Giu lam gi"
+  },
+  "dialogue_109143": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_109165": {
+    "translated": "Cach trieu chieu",
+    "abbrev": "Trieu chieu"
+  },
+  "dialogue_10918F": {
+    "translated": "Quan huyen trieu chieu tuong",
+    "abbrev": "Trieu tuong"
+  },
+  "dialogue_1091AC": {
+    "translated": "Khong tuong tai da",
+    "abbrev": "Khong tuong da"
+  },
+  "dialogue_1091BF": {
+    "translated": "Tuong trieu chieu",
+    "abbrev": "Tuong trieu"
+  },
+  "dialogue_1091D5": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_1091EF": {
+    "translated": "Hay nhap so vang tang",
+    "abbrev": "Nhap so vang"
+  },
+  "dialogue_1092AA": {
+    "translated": "Quyet khong phuc vu",
+    "abbrev": "Khong phuc vu"
+  },
+  "dialogue_1092CC": {
+    "translated": "Trieu chieu that bai",
+    "abbrev": "Trieu that bai"
+  },
+  "dialogue_109317": {
+    "translated": "Dung sac du do",
+    "abbrev": "Dung sac"
+  },
+  "dialogue_1093B4": {
+    "translated": "Trong quan khong co ma quy",
+    "abbrev": "Khong ma quy"
+  },
+  "dialogue_109474": {
+    "translated": "Chu cong khong co bao vat",
+    "abbrev": "Khong bao vat"
+  },
+  "dialogue_10948F": {
+    "translated": "Hay chon bao vat tang",
+    "abbrev": "Chon bao tang"
+  },
+  "dialogue_10958C": {
+    "translated": "Khong tuong hop de trieu",
+    "abbrev": "Khong tuong hop"
+  },
+  "dialogue_1095BC": {
+    "translated": "Thuyet phuc bang dai nghia",
+    "abbrev": "Thuyet dai nghia"
+  },
+  "dialogue_109650": {
+    "translated": "Hay chon quan thay quan chuc",
+    "abbrev": "Chon quan"
+  },
+  "dialogue_109668": {
+    "translated": "Hay chon tuong thay quan chuc",
+    "abbrev": "Chon tuong"
+  },
+  "dialogue_109684": {
+    "translated": "Hay chon quan chuc muon thay",
+    "abbrev": "Chon quan chuc"
+  },
+  "dialogue_1096D8": {
+    "translated": "Tong tuong chua du sau nguoi",
+    "abbrev": "Chua du 6 tuong"
+  },
+  "dialogue_109704": {
+    "translated": "Hay chon chu de hoi nghi",
+    "abbrev": "Chon chu de"
+  },
+  "dialogue_10971D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_109738": {
+    "translated": "Ke nay khong thuc hien duoc",
+    "abbrev": "Khong thuc hien"
+  },
+  "dialogue_10978D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_109796": {
+    "translated": "Hay chon quoc gia thao luan",
+    "abbrev": "Chon quoc gia"
+  },
+  "dialogue_10989C": {
+    "translated": "Hay chon quan huyen thuong tuong",
+    "abbrev": "Chon quan thuong"
+  },
+  "dialogue_1098CE": {
+    "translated": "Hay nhap so vang thuong",
+    "abbrev": "Nhap vang thuong"
+  },
+  "dialogue_1099E0": {
+    "translated": "Chu cong khong con cong chua",
+    "abbrev": "Khong cong chua"
+  },
+  "dialogue_109A1A": {
+    "translated": "Hay chon tuong cuoi cong chua",
+    "abbrev": "Chon tuong cuoi"
+  },
+  "dialogue_109A37": {
+    "translated": "Giao cong chua cho",
+    "abbrev": "Giao cong chua"
+  },
+  "dialogue_109A54": {
+    "translated": "Hay chon cach xu phat",
+    "abbrev": "Chon xu phat"
+  },
+  "dialogue_109A67": {
+    "translated": "Hay chon quan huyen xu tuong",
+    "abbrev": "Chon quan xu"
+  },
+  "dialogue_109A9D": {
+    "translated": "Hay chon bao vat tru",
+    "abbrev": "Chon bao tru"
+  },
+  "dialogue_109AF0": {
+    "translated": "Hay chon quan huyen truc xuat",
+    "abbrev": "Chon truc xuat"
+  },
+  "dialogue_109B0C": {
+    "translated": "Hay chon tuong truc xuat",
+    "abbrev": "Chon tuong truc"
+  },
+  "dialogue_109B32": {
+    "translated": "Quan huyen truc dau tuong",
+    "abbrev": "Truc dau tuong"
+  },
+  "dialogue_109B4D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_109B80": {
+    "translated": "Da bi truc dau thi chung",
+    "abbrev": "Bi truc dau"
+  },
+  "dialogue_109BC4": {
+    "translated": "La ca trong dao ta",
+    "abbrev": "Ca trong dao"
+  },
+  "dialogue_109BFB": {
+    "translated": "Hai nuoc hop thi co loi",
+    "abbrev": "Hop co loi"
+  },
+  "dialogue_109C5F": {
+    "translated": "May man khong lam mat mang",
+    "abbrev": "Khong mat mang"
+  },
+  "dialogue_109C74": {
+    "translated": "Am muu ta rat gan",
+    "abbrev": "Am muu gan"
+  },
+  "dialogue_109C8B": {
+    "translated": "Tin nghia noi tieng chu hau",
+    "abbrev": "Tin nghia chu hau"
+  },
+  "dialogue_109CD7": {
+    "translated": "Minh cong nen tan cong gap",
+    "abbrev": "Tan cong gap"
+  },
+  "dialogue_109CF9": {
+    "translated": "La uy luc chu cong",
+    "abbrev": "Uy chu cong"
+  },
+  "dialogue_109D11": {
+    "translated": "Loai bo tin nghia",
+    "abbrev": "Bo tin nghia"
+  },
+  "dialogue_109D31": {
+    "translated": "Thieu mot nguoi bien thien",
+    "abbrev": "Thieu bien thien"
+  },
+  "dialogue_109D7B": {
+    "translated": "Khong thuyet phuc duoc",
+    "abbrev": "Khong thuyet phuc"
+  },
+  "dialogue_109D95": {
+    "translated": "Mang mot tuong dan quan tro",
+    "abbrev": "Tuong dan tro"
+  },
+  "dialogue_109DAF": {
+    "translated": "Thay nuoc lang co nan",
+    "abbrev": "Lang co nan"
+  },
+  "dialogue_109DD5": {
+    "translated": "Nuoc ta tich o lau",
+    "abbrev": "Tich o lau"
+  },
+  "dialogue_109E0D": {
+    "translated": "Giup vang va luong",
+    "abbrev": "Giup vang luong"
+  },
+  "dialogue_109E21": {
+    "translated": "Khong muon cho luong",
+    "abbrev": "Khong cho luong"
+  },
+  "dialogue_109E37": {
+    "translated": "Mang tuong dan quan pha la thuong",
+    "abbrev": "Dan quan pha"
+  },
+  "dialogue_109E75": {
+    "translated": "Chu hau khong dam nhin ta",
+    "abbrev": "Khong dam nhin"
+  },
+  "dialogue_109EA4": {
+    "translated": "Vui ve chap nhan",
+    "abbrev": "Vui chap nhan"
+  },
+  "dialogue_109EB1": {
+    "translated": "Chu cong sao khong danh",
+    "abbrev": "Sao khong danh"
+  },
+  "dialogue_109EDD": {
+    "translated": "Can gi cho luong ke",
+    "abbrev": "Can gi cho"
+  },
+  "dialogue_109F0D": {
+    "translated": "Hon la dung ke nhuu nhu",
+    "abbrev": "Ke nhuu nhu"
+  },
+  "dialogue_109F62": {
+    "translated": "Chon ngay hoi le",
+    "abbrev": "Chon ngay hoi"
+  },
+  "dialogue_109F7B": {
+    "translated": "Khong xung mong chu cong",
+    "abbrev": "Khong xung mong"
+  },
+  "dialogue_109F93": {
+    "translated": "Hon la dung phap nhuu nhu",
+    "abbrev": "Phap nhuu nhu"
+  },
+  "dialogue_109FC7": {
+    "translated": "Nay nhu chim bi ban",
+    "abbrev": "Nhu chim ban"
+  },
+  "dialogue_109FF9": {
+    "translated": "Qua nhu mong muon",
+    "abbrev": "Nhu mong"
+  },
+  "dialogue_10A011": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10A047": {
+    "translated": "Tot cua tot",
+    "abbrev": "Tot cua tot"
+  },
+  "dialogue_10A065": {
+    "translated": "De cuu mang dan mot quan",
+    "abbrev": "Cuu dan quan"
+  },
+  "dialogue_10A0A1": {
+    "translated": "Hai quan chi gap tren chien truong",
+    "abbrev": "Gap chien truong"
+  },
+  "dialogue_10A0CF": {
+    "translated": "Quyet khong hoa",
+    "abbrev": "Khong hoa"
+  },
+  "dialogue_10A0E7": {
+    "translated": "Nen gia lenh Thien tu",
+    "abbrev": "Gia lenh Thien tu"
+  },
+  "dialogue_10A13B": {
+    "translated": "Lien hai ben ngung chien",
+    "abbrev": "Ngung chien"
+  },
+  "dialogue_10A167": {
+    "translated": "Khong nghe khuyen",
+    "abbrev": "Khong nghe"
+  },
+  "dialogue_10A183": {
+    "translated": "Bo mot ke vo muu",
+    "abbrev": "Bo vo muu"
+  },
+  "dialogue_10A1C9": {
+    "translated": "Tra ve nuoc ta",
+    "abbrev": "Tra ve nuoc"
+  },
+  "dialogue_10A1DF": {
+    "translated": "Khong the chuoc",
+    "abbrev": "Khong chuoc"
+  },
+  "dialogue_10A201": {
+    "translated": "Quoc gia lien minh",
+    "abbrev": "Quoc lien minh"
+  },
+  "dialogue_10A219": {
+    "translated": "Tuong lam su",
+    "abbrev": "Tuong lam su"
+  },
+  "dialogue_10A238": {
+    "translated": "Hay nhap thoi han lien minh",
+    "abbrev": "Nhap thoi han"
+  },
+  "dialogue_10A311": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10A35C": {
+    "translated": "Hay chon quan huyen hop tan",
+    "abbrev": "Hop tan"
+  },
+  "dialogue_10A3E0": {
+    "translated": "Hay chon vat tu vien tro",
+    "abbrev": "Chon vat tu"
+  },
+  "dialogue_10A3F8": {
+    "translated": "Hay nhap vien tro",
+    "abbrev": "Nhap vien tro"
+  },
+  "dialogue_10A4C4": {
+    "translated": "Hay chon quoc gia lien hon",
+    "abbrev": "Chon lien hon"
+  },
+  "dialogue_10A587": {
+    "translated": "Quoc gia tien cong",
+    "abbrev": "Tien cong"
+  },
+  "dialogue_10A5A0": {
+    "translated": "Hay chon vat tu tien cong",
+    "abbrev": "Vat tien cong"
+  },
+  "dialogue_10A611": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10A67C": {
+    "translated": "Hay chon quoc gia ep buoc",
+    "abbrev": "Chon ep buoc"
+  },
+  "dialogue_10A691": {
+    "translated": "Vat tu yeu cau",
+    "abbrev": "Vat yeu cau"
+  },
+  "dialogue_10A6AB": {
+    "translated": "Ep yeu cau",
+    "abbrev": "Ep yeu cau"
+  },
+  "dialogue_10A7E0": {
+    "translated": "Hay chon quoc gia hang phuc",
+    "abbrev": "Chon hang phuc"
+  },
+  "dialogue_10A8E5": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10A9B8": {
+    "translated": "Uy tin quoc gia ton hai",
+    "abbrev": "Uy tin ton hai"
+  },
+  "dialogue_10A9D4": {
+    "translated": "Hay chon quoc gia trao tu",
+    "abbrev": "Chon trao tu"
+  },
+  "dialogue_10AA0C": {
+    "translated": "Hay chon tuong tu bin tra",
+    "abbrev": "Chon tu tra"
+  },
+  "dialogue_10AA27": {
+    "translated": "Hay chon dieu kien trao doi",
+    "abbrev": "Dieu kien trao"
+  },
+  "dialogue_10AA5D": {
+    "translated": "Tuong tu bin dich tra",
+    "abbrev": "Tu bin dich"
+  },
+  "dialogue_10AA7D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10AB84": {
+    "translated": "Co quyet che tao khong",
+    "abbrev": "Quyet che tao"
+  },
+  "dialogue_10AC15": {
+    "translated": "Co quyet thuc hien khong",
+    "abbrev": "Quyet thuc hien"
+  },
+  "dialogue_10AC3E": {
+    "translated": "Kho luong trong rong",
+    "abbrev": "Kho rong"
+  },
+  "dialogue_10AD37": {
+    "translated": "Hay chon vu khi muon mua",
+    "abbrev": "Chon mua VK"
+  },
+  "dialogue_10ADE8": {
+    "translated": "Khong du vang mua nu tien",
+    "abbrev": "Khong du vang"
+  },
+  "dialogue_10AE5C": {
+    "translated": "Khong du vang mua ngua",
+    "abbrev": "Khong du vang"
+  },
+  "dialogue_10AE8C": {
+    "translated": "Khong con thanh nien tot",
+    "abbrev": "Khong thanh nien"
+  },
+  "dialogue_10AEF0": {
+    "translated": "tan binh",
+    "abbrev": "tan binh"
+  },
+  "dialogue_10AF10": {
+    "translated": "Co quyet chiem binh khong",
+    "abbrev": "Quyet chiem"
+  },
+  "dialogue_10AF2D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10AF9A": {
+    "translated": "Chiem binh",
+    "abbrev": "Chiem binh"
+  },
+  "dialogue_10AFBC": {
+    "translated": "Co quyet muu binh khong",
+    "abbrev": "Quyet muu"
+  },
+  "dialogue_10B025": {
+    "translated": "Ngua",
+    "abbrev": "Ngua"
+  },
+  "dialogue_10B03C": {
+    "translated": "Nu binh",
+    "abbrev": "Nu binh"
+  },
+  "dialogue_10B046": {
+    "translated": "Lien nu",
+    "abbrev": "Lien nu"
+  },
+  "dialogue_10B052": {
+    "translated": "Hay chon loai binh tai bien",
+    "abbrev": "Chon loai binh"
+  },
+  "dialogue_10B06C": {
+    "translated": "Hay nhap so binh tai bien",
+    "abbrev": "Nhap so binh"
+  },
+  "dialogue_10B0A1": {
+    "translated": "Hay chon quan huyen dich",
+    "abbrev": "Chon quan dich"
+  },
+  "dialogue_10B0C4": {
+    "translated": "Hay chon muc van bu",
+    "abbrev": "Chon van bu"
+  },
+  "dialogue_10B0F1": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10B111": {
+    "translated": "Khong co vang trong",
+    "abbrev": "Khong vang"
+  },
+  "dialogue_10B128": {
+    "translated": "Nhap van chuyen",
+    "abbrev": "Nhap van"
+  },
+  "dialogue_10B179": {
+    "translated": "Khong co ngua trong",
+    "abbrev": "Khong ngua"
+  },
+  "dialogue_10B18D": {
+    "translated": "Nhap van chuyen",
+    "abbrev": "Nhap van"
+  },
+  "dialogue_10B1C1": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10B1E4": {
+    "translated": "Khong co lien nu",
+    "abbrev": "Khong lien nu"
+  },
+  "dialogue_10B215": {
+    "translated": "Khong co phat da xe",
+    "abbrev": "Khong phat da"
+  },
+  "dialogue_10B24B": {
+    "translated": "Khong co xe xung",
+    "abbrev": "Khong xung xe"
+  },
+  "dialogue_10B2B1": {
+    "translated": "Khong co can lan",
+    "abbrev": "Khong can lan"
+  },
+  "dialogue_10B2E5": {
+    "translated": "Khong co nguyen vu",
+    "abbrev": "Khong nguyen vu"
+  },
+  "dialogue_10B394": {
+    "translated": "Hon la theo minh chu khac",
+    "abbrev": "Theo minh khac"
+  },
+  "dialogue_10B3C9": {
+    "translated": "Nghe tieng dung truong tuong",
+    "abbrev": "Dung truong tuong"
+  },
+  "dialogue_10B417": {
+    "translated": "Chua gap ai nhu minh cong",
+    "abbrev": "Chua gap ai"
+  },
+  "dialogue_10B467": {
+    "translated": "Minh cong chi tai nap si",
+    "abbrev": "Chi tai nap si"
+  },
+  "dialogue_10B484": {
+    "translated": "Mua lon",
+    "abbrev": "Mua lon"
+  },
+  "dialogue_10B499": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10B4B1": {
+    "translated": "Vi ly",
+    "abbrev": "Vi ly"
+  },
+  "dialogue_10B4B9": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10B4C3": {
+    "translated": "Giam mieng",
+    "abbrev": "Giam mieng"
+  },
+  "dialogue_10B4CB": {
+    "translated": "Giam nghiep",
+    "abbrev": "Giam nghiep"
+  },
+  "dialogue_10B4D3": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10B4E3": {
+    "translated": "Si khi tang",
+    "abbrev": "Si khi tang"
+  },
+  "dialogue_10B4F3": {
+    "translated": "Vang",
+    "abbrev": "Vang"
+  },
+  "dialogue_10B4FC": {
+    "translated": "Tang luong",
+    "abbrev": "Tang luong"
+  },
+  "dialogue_10B514": {
+    "translated": "Bao vat",
+    "abbrev": "Bao vat"
+  },
+  "dialogue_10B533": {
+    "translated": "Dai nghiep thanh cong mong xuan",
+    "abbrev": "Mong xuan"
+  },
+  "dialogue_10B553": {
+    "translated": "Ngai thong nhat thien ha",
+    "abbrev": "Thong nhat"
+  },
+  "dialogue_10B7FA": {
+    "translated": "Quan xay bao loan",
+    "abbrev": "Bao loan"
+  },
+  "dialogue_10B81F": {
+    "translated": "Tri do giam",
+    "abbrev": "Tri do giam"
+  },
+  "dialogue_10B9DC": {
+    "translated": "Khong co ton hai",
+    "abbrev": "Khong ton hai"
+  },
+  "dialogue_10BAB7": {
+    "translated": "Chi tieu luong quan quan",
+    "abbrev": "Chi luong quan"
+  },
+  "dialogue_10BAD4": {
+    "translated": "Tri do la",
+    "abbrev": "Tri do la"
+  },
+  "dialogue_10BB3B": {
+    "translated": "Don dien thieu hut",
+    "abbrev": "Don thieu hut"
+  },
+  "dialogue_10BB58": {
+    "translated": "Don dien binh an",
+    "abbrev": "Don binh an"
+  },
+  "dialogue_10BB72": {
+    "translated": "Don dien thu hoach",
+    "abbrev": "Don thu hoach"
+  },
+  "dialogue_10BC1C": {
+    "translated": "Quan thu tang",
+    "abbrev": "Thu tang"
+  },
+  "dialogue_10BC88": {
+    "translated": "Do huan luyen tang",
+    "abbrev": "Huan tang"
+  },
+  "dialogue_10BCB2": {
+    "translated": "Van chuyen tren duong",
+    "abbrev": "Van chuyen"
+  },
+  "dialogue_10BD48": {
+    "translated": "Moi duoc tan binh",
+    "abbrev": "Tan binh"
+  },
+  "dialogue_10BDF4": {
+    "translated": "Hoan thanh",
+    "abbrev": "Hoan thanh"
+  },
+  "dialogue_10BE06": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10BE50": {
+    "translated": "Nong nghiep tang",
+    "abbrev": "Nong tang"
+  },
+  "dialogue_10BE62": {
+    "translated": "Gat nuoc ma gieo",
+    "abbrev": "Gat nuoc gieo"
+  },
+  "dialogue_10BE77": {
+    "translated": "Ket thuc don dien",
+    "abbrev": "Ket don dien"
+  },
+  "dialogue_10BEA0": {
+    "translated": "Thuong nghiep tang",
+    "abbrev": "Thuong tang"
+  },
+  "dialogue_10BECC": {
+    "translated": "Chong hong tang",
+    "abbrev": "Chong hong"
+  },
+  "dialogue_10BF5C": {
+    "translated": "Gui cho quan chu",
+    "abbrev": "Gui quan chu"
+  },
+  "dialogue_10BF75": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10BFAE": {
+    "translated": "Kho lua tang",
+    "abbrev": "Kho tang"
+  },
+  "dialogue_10BFC0": {
+    "translated": "Lua giam",
+    "abbrev": "Lua giam"
+  },
+  "dialogue_10BFFB": {
+    "translated": "Da mua nu tien",
+    "abbrev": "Mua nu tien"
+  },
+  "dialogue_10C00C": {
+    "translated": "Da mua ngua tot",
+    "abbrev": "Mua ngua tot"
+  },
+  "dialogue_10C234": {
+    "translated": "Ha a",
+    "abbrev": "Ha a"
+  },
+  "dialogue_10C23C": {
+    "translated": "Neu bo kiem ngay",
+    "abbrev": "Bo kiem ngay"
+  },
+  "dialogue_10C274": {
+    "translated": "Day la y troi",
+    "abbrev": "Y troi"
+  },
+  "dialogue_10C28F": {
+    "translated": "Dam danh 300 hoi",
+    "abbrev": "300 hoi"
+  },
+  "dialogue_10C2B3": {
+    "translated": "Ngai chi co tai nay",
+    "abbrev": "Chi co tai nay"
+  },
+  "dialogue_10C2DF": {
+    "translated": "Khong lay dau ngai",
+    "abbrev": "Khong lay dau"
+  },
+  "dialogue_10C321": {
+    "translated": "Ky thua nhan",
+    "abbrev": "Ky thua"
+  },
+  "dialogue_10C33C": {
+    "translated": "Muon di",
+    "abbrev": "Muon di"
+  },
+  "dialogue_10C345": {
+    "translated": "Ta mot ten",
+    "abbrev": "Mot ten"
+  },
+  "dialogue_10C353": {
+    "translated": "Khong biet la ke",
+    "abbrev": "Khong biet ke"
+  },
+  "dialogue_10C451": {
+    "translated": "Phai vay",
+    "abbrev": "Phai vay"
+  },
+  "dialogue_10C45B": {
+    "translated": "Dam xam bien gioi",
+    "abbrev": "Xam bien gioi"
+  },
+  "dialogue_10C473": {
+    "translated": "Den lay dau ngai",
+    "abbrev": "Lay dau ngai"
+  },
+  "dialogue_10C483": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10C48F": {
+    "translated": "Bao ten truoc",
+    "abbrev": "Bao ten"
+  },
+  "dialogue_10C4C5": {
+    "translated": "Tra but",
+    "abbrev": "Tra but"
+  },
+  "dialogue_10C4D3": {
+    "translated": "O day",
+    "abbrev": "O day"
+  },
+  "dialogue_10C4DD": {
+    "translated": "Bi danh lua",
+    "abbrev": "Bi danh lua"
+  },
+  "dialogue_10C4E9": {
+    "translated": "Ngua bi troi",
+    "abbrev": "Ngua bi troi"
+  },
+  "dialogue_10C4FB": {
+    "translated": "Tuong vo danh",
+    "abbrev": "Vo danh"
+  },
+  "dialogue_10C515": {
+    "translated": "Van co chap ngo",
+    "abbrev": "Van co chap"
+  },
+  "dialogue_10C533": {
+    "translated": "Sao noi bao",
+    "abbrev": "Sao noi bao"
+  },
+  "dialogue_10C549": {
+    "translated": "Dam noi loan",
+    "abbrev": "Dam noi loan"
+  },
+  "dialogue_10C564": {
+    "translated": "Ke tro ac",
+    "abbrev": "Ke tro ac"
+  },
+  "dialogue_10C57C": {
+    "translated": "Loai chuot nhat",
+    "abbrev": "Chuot nhat"
+  },
+  "dialogue_10C594": {
+    "translated": "Phan tac hang ha",
+    "abbrev": "Phan tac hang"
+  },
+  "dialogue_10C5A3": {
+    "translated": "Sao khong hang som",
+    "abbrev": "Khong hang som"
+  },
+  "dialogue_10C5B9": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10C5CC": {
+    "translated": "Ke phu dung cuong",
+    "abbrev": "Phu dung cuong"
+  },
+  "dialogue_10C5DB": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10C600": {
+    "translated": "Ta quyet giet ngai",
+    "abbrev": "Quyet giet"
+  },
+  "dialogue_10C60B": {
+    "translated": "Co gi ke",
+    "abbrev": "Co gi ke"
+  },
+  "dialogue_10C621": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10C634": {
+    "translated": "O dau",
+    "abbrev": "O dau"
+  },
+  "dialogue_10C765": {
+    "translated": "Chay mat",
+    "abbrev": "Chay mat"
+  },
+  "dialogue_10C790": {
+    "translated": "Chi cong chet som",
+    "abbrev": "Chet som"
+  },
+  "dialogue_10C7C7": {
+    "translated": "Bi kinh hoang",
+    "abbrev": "Bi kinh hoang"
+  },
+  "dialogue_10C984": {
+    "translated": "Ca toc mai vao lich su",
+    "abbrev": "Mai vao lich su"
+  },
+  "dialogue_10CBBF": {
+    "translated": "Bi khich dong phan",
+    "abbrev": "Bi khich phan"
+  },
+  "dialogue_10CF4D": {
+    "translated": "Hung 11",
+    "abbrev": "Hung 11"
+  },
+  "dialogue_10CF55": {
+    "translated": "Muoi hai",
+    "abbrev": "12"
+  },
+  "dialogue_10CF5D": {
+    "translated": "Thuong tinh",
+    "abbrev": "Thuong tinh"
+  },
+  "dialogue_10CF73": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10CF79": {
+    "translated": "Tau bac",
+    "abbrev": "Tau bac"
+  },
+  "dialogue_10CF8C": {
+    "translated": "Dong nam",
+    "abbrev": "Dong nam"
+  },
+  "dialogue_10CF97": {
+    "translated": "Viec ngai hua voi chu ta",
+    "abbrev": "Viec hua chu"
+  },
+  "dialogue_10CFC5": {
+    "translated": "Ai theo ta cung chet",
+    "abbrev": "Cung chet"
+  },
+  "dialogue_10D033": {
+    "translated": "Anh hung bon phuong cung tao dai nghiep",
+    "abbrev": "Cung tao nghiep"
+  },
+  "dialogue_10D0B3": {
+    "translated": "Nhu tan may thay troi",
+    "abbrev": "Tan may thay troi"
+  },
+  "dialogue_10D0F4": {
+    "translated": "Ai dam quyet tu voi ta",
+    "abbrev": "Dare quyet tu"
+  },
+  "dialogue_10D107": {
+    "translated": "Den lay mang ngai",
+    "abbrev": "Lay mang"
+  },
+  "dialogue_10D117": {
+    "translated": "Khong xung giao thu",
+    "abbrev": "Khong xung"
+  },
+  "dialogue_10D131": {
+    "translated": "Dai ngu",
+    "abbrev": "Dai ngu"
+  },
+  "dialogue_10D192": {
+    "translated": "Rut lui toan quan",
+    "abbrev": "Rut toan quan"
+  },
+  "dialogue_10D1AB": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10D1B5": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10D1C2": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10D1F4": {
+    "translated": "Khong the nghi duong",
+    "abbrev": "Khong nghi duong"
+  },
+  "dialogue_10D274": {
+    "translated": "Khong the khich si khi",
+    "abbrev": "Khong khich"
+  },
+  "dialogue_10D375": {
+    "translated": "Vi tri bo doi",
+    "abbrev": "Vi tri doi"
+  },
+  "dialogue_10D38B": {
+    "translated": "Vi tri cong thanh",
+    "abbrev": "Vi tri cong"
+  },
+  "dialogue_10D3C8": {
+    "translated": "Vat tu",
+    "abbrev": "Vat tu"
+  },
+  "dialogue_10D3E8": {
+    "translated": "Tran hinh",
+    "abbrev": "Tran hinh"
+  },
+  "dialogue_10D42F": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10D437": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10D4A3": {
+    "translated": "Binh chay chet het",
+    "abbrev": "Binh chet het"
+  },
+  "dialogue_10D50B": {
+    "translated": "Binh chay het",
+    "abbrev": "Binh chay het"
+  },
+  "dialogue_10D5FF": {
+    "translated": "Leo tuong cong thanh",
+    "abbrev": "Leo tuong"
+  },
+  "dialogue_10D611": {
+    "translated": "Dung van ti leo tuong",
+    "abbrev": "Van ti leo"
+  },
+  "dialogue_10D641": {
+    "translated": "Tan cong doi dich lien",
+    "abbrev": "Tan cong lien"
+  },
+  "dialogue_10D65F": {
+    "translated": "Hay chon doi dich tan cong",
+    "abbrev": "Chon doi dich"
+  },
+  "dialogue_10D677": {
+    "translated": "Hay chon doi dich ban",
+    "abbrev": "Chon doi ban"
+  },
+  "dialogue_10D7A1": {
+    "translated": "Ke hoa tan that bai",
+    "abbrev": "Hoa tan that"
+  },
+  "dialogue_10D918": {
+    "translated": "Quan da toan quan phuc",
+    "abbrev": "Toan quan phuc"
+  },
+  "dialogue_10D973": {
+    "translated": "Xe phat da bi pha",
+    "abbrev": "Phat da pha"
+  },
+  "dialogue_10D98B": {
+    "translated": "Xe xung bi pha",
+    "abbrev": "Xung xe pha"
+  },
+  "dialogue_10D9A2": {
+    "translated": "Van ti bi pha",
+    "abbrev": "Van ti pha"
+  },
+  "dialogue_10D9BC": {
+    "translated": "Can lan bi pha",
+    "abbrev": "Can lan pha"
+  },
+  "dialogue_10D9D1": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10D9E5": {
+    "translated": "Nha pai bi pha",
+    "abbrev": "Nha pai pha"
+  },
+  "dialogue_10D9F9": {
+    "translated": "Xa le bi pha",
+    "abbrev": "Xa le pha"
+  },
+  "dialogue_10DA9F": {
+    "translated": "Ce phan du do hang",
+    "abbrev": "Ce phan du do"
+  },
+  "dialogue_10DAD5": {
+    "translated": "Ke nay can vang",
+    "abbrev": "Can vang"
+  },
+  "dialogue_10DAF8": {
+    "translated": "Quan tu khong du",
+    "abbrev": "Quan tu khong du"
+  },
+  "dialogue_10DB15": {
+    "translated": "Can vat lieu vang",
+    "abbrev": "Can vat lieu"
+  },
+  "dialogue_10DB80": {
+    "translated": "Dot luong cuop luong",
+    "abbrev": "Dot cuop luong"
+  },
+  "dialogue_10DBC7": {
+    "translated": "Ke moai thanh cong",
+    "abbrev": "Ke thanh cong"
+  },
+  "dialogue_10DBEF": {
+    "translated": "Ke dot luong bi phat",
+    "abbrev": "Dot luong phat"
+  },
+  "dialogue_10DC17": {
+    "translated": "Cho gian xam tham",
+    "abbrev": "Gian xam tham"
+  },
+  "dialogue_10DC43": {
+    "translated": "Truyen tin ac",
+    "abbrev": "Truyen tin ac"
+  },
+  "dialogue_10DC68": {
+    "translated": "Tin ac trong dich trai",
+    "abbrev": "Tin ac dich"
+  },
+  "dialogue_10DD50": {
+    "translated": "Mat tham thu tin dich",
+    "abbrev": "Mat tham thu"
+  },
+  "dialogue_10DD6D": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10DDDB": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "dialogue_10DE14": {
+    "translated": "Tran hinh bo doi",
+    "abbrev": "Tran hinh doi"
+  },
+  "dialogue_10DE70": {
+    "translated": "Quyet truc dau khong",
+    "abbrev": "Quyet truc dau"
+  },
+  "dialogue_10DE83": {
+    "translated": "Bi giam trong nguc",
+    "abbrev": "Bi giam nguc"
+  },
+  "dialogue_10DE98": {
+    "translated": "Quyet tha khong",
+    "abbrev": "Quyet tha"
+  },
+  "dialogue_10DEAB": {
+    "translated": "Da duoc tha",
+    "abbrev": "Da tha"
+  },
+  "dialogue_10DEBA": {
+    "translated": "Bi truc dau thi chung",
+    "abbrev": "Truc dau thi"
+  },
+  "misc_0FAFF1": {
+    "translated": "Dao kiem",
+    "abbrev": "Dao kiem"
+  },
+  "misc_0FF27D": {
+    "translated": "Cong To",
+    "abbrev": "Cong To"
+  },
+  "misc_1012C1": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_1018C7": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_1019D5": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_101BA9": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  },
+  "misc_101E91": {
+    "translated": "UNK",
+    "abbrev": "UNK"
+  }
+}

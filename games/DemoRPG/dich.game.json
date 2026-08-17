@@ -1,0 +1,23 @@
+{
+  "name": "Demo RPG",
+  "source_lang": "cn",
+  "encoding": "gbk",
+  "font_profile": "win95_16_syllable",
+  "font_mode": "syllable",
+  "cell_width": 16,
+  "cell_height": 16,
+  "paths": {
+    "game_dir": "game",
+    "strings_dir": "strings",
+    "font_dir": "font",
+    "patch_dir": "patch"
+  },
+  "files": {
+    "extracted": "strings/extracted.csv",
+    "translated": "strings/vi.csv",
+    "insured": "strings/insured.csv",
+    "encoded": "strings/vi.gbk.csv"
+  },
+  "notes": "Syllable mode demo — 1 tiếng Việt = 1 ô GBK.",
+  "toolkit": "/workspace"
+}

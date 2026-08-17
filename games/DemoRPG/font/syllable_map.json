@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "mode": "syllable",
+  "encoding": "gbk",
+  "glyph_count": 10,
+  "syllables": [
+    {
+      "text": "Bắt",
+      "index": 0,
+      "gbk": "B0A1",
+      "gbk_lead": 176,
+      "gbk_trail": 161,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    },
+    {
+      "text": "Chào",
+      "index": 1,
+      "gbk": "B0A2",
+      "gbk_lead": 176,
+      "gbk_trail": 162,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    },
+    {
+      "text": "chào",
+      "index": 2,
+      "gbk": "B0A3",
+      "gbk_lead": 176,
+      "gbk_trail": 163,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    },
+    {
+      "text": "chơi",
+      "index": 3,
+      "gbk": "B0A4",
+      "gbk_lead": 176,
+      "gbk_trail": 164,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    },
+    {
+      "text": "mừng",
+      "index": 4,
+      "gbk": "B0A5",
+      "gbk_lead": 176,
+      "gbk_trail": 165,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    },
+    {
+      "text": "trò",
+      "index": 5,
+      "gbk": "B0A6",
+      "gbk_lead": 176,
+      "gbk_trail": 166,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    },
+    {
+      "text": "với",
+      "index": 6,
+      "gbk": "B0A7",
+      "gbk_lead": 176,
+      "gbk_trail": 167,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    },
+    {
+      "text": "Xin",
+      "index": 7,
+      "gbk": "B0A8",
+      "gbk_lead": 176,
+      "gbk_trail": 168,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    },
+    {
+      "text": "đầu",
+      "index": 8,
+      "gbk": "B0A9",
+      "gbk_lead": 176,
+      "gbk_trail": 169,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    },
+    {
+      "text": "đến",
+      "index": 9,
+      "gbk": "B0AA",
+      "gbk_lead": 176,
+      "gbk_trail": 170,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16,
+      "advance": 16
+    }
+  ],
+  "lookup": {
+    "Bắt": "B0A1",
+    "Chào": "B0A2",
+    "chào": "B0A3",
+    "chơi": "B0A4",
+    "mừng": "B0A5",
+    "trò": "B0A6",
+    "với": "B0A7",
+    "Xin": "B0A8",
+    "đầu": "B0A9",
+    "đến": "B0AA"
+  },
+  "profile": {
+    "name": "win95_16_syllable",
+    "mode": "syllable",
+    "render": "pillow",
+    "cell": [
+      16,
+      16
+    ],
+    "syllable_count": 10,
+    "gbk_start": "B0A1",
+    "notes": "Syllable mode — 1 tiếng Việt = 1 ô 16×16, map GBK 2-byte"
+  }
+}

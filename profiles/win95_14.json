@@ -1,0 +1,16 @@
+{
+  "name": "win95_14",
+  "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+  "size": 14,
+  "padding": 1,
+  "cols": 16,
+  "render": "pixel",
+  "scale": 4,
+  "one_bit": false,
+  "cell_width": null,
+  "cell_height": null,
+  "monospace": false,
+  "chars": "chars_vi.txt",
+  "out": "output/win95_14",
+  "notes": "Font 14px proportional — dialogue Win95"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "win95_16_syllable",
+  "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+  "size": 14,
+  "padding": 1,
+  "cols": 16,
+  "render": "smooth",
+  "scale": 6,
+  "engine": "pillow",
+  "one_bit": false,
+  "cell_width": 16,
+  "cell_height": 16,
+  "monospace": true,
+  "chars": "chars_vi.txt",
+  "out": "output/win95_16_syllable",
+  "notes": "Syllable mode — 1 tiếng Việt = 1 ô 16×16, map GBK 2-byte"
+}
