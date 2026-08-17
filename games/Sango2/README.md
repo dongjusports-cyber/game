@@ -1,18 +1,13 @@
 # Sango II — workspace VigameV1.0
 
-Dịch thực tế chạy qua repo `D:\Game\SAN\repo\`.
-
-## Chơi nhanh
+## Chơi
 
 ```bat
-D:\Game\SAN\Play Sango2 VN.bat
+D:\Game\SAN\Play Sango2 Syllable.bat
 ```
 
-## Cài lần đầu
+hoặc `games\MyRPG\game\Play Sango2 Syllable.bat`
 
-1. `D:\Game\SAN\Install Sango2.bat` — chọn **mục 1**
-2. `D:\Game\SAN\Apply Crack.bat`
-3. `D:\Game\SAN\repo\scripts\build_vn_release.bat`
-4. `D:\Game\SAN\Play Sango2 VN.bat`
+DOSBox-X mount đĩa nhạc:
 
-Chi tiết: `notes/SANGO2.md`
+`D:\Game\SAN\CD-ROM\restored\Sango2_disc.cue`

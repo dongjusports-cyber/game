@@ -19,5 +19,5 @@
     "insured": "strings/insured.csv",
     "encoded": "strings/vi.gbk.csv"
   },
-  "notes": "Sango II DOS Big5 — syllable có dấu. Pipeline: tools/adapters/sango2/pipeline.py"
+  "notes": "Workspace game da chuyen sang D:\\Game\\SANGO2. Chay: python dich.py sango2 --game D:\\Game\\SANGO2 --patch-font --patch-exe --deploy"
 }

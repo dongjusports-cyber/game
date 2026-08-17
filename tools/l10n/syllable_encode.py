@@ -19,7 +19,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "font_atlas"))
-from syllable import split_syllables, syllable_count
+from syllable import cell_count, expand_cell_tokens
 
 
 @dataclass
@@ -45,7 +45,7 @@ def load_syllable_map(path: Path) -> dict[str, bytes]:
 
 
 def encode_text(text: str, lookup: dict[str, bytes], ascii_single: bool = True) -> EncodeResult:
-    tokens = split_syllables(text)
+    tokens = expand_cell_tokens(text)
     out = bytearray()
     missing: list[str] = []
 
@@ -66,7 +66,7 @@ def encode_text(text: str, lookup: dict[str, bytes], ascii_single: bool = True) 
         text=text,
         encoded_hex=out.hex().upper(),
         encoded_bytes=bytes(out),
-        cell_count=syllable_count(text),
+        cell_count=cell_count(text),
         missing=missing,
     )
 

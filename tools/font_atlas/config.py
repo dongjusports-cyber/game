@@ -8,8 +8,8 @@ from pathlib import Path
 from typing import Any
 
 WINDOWS_FONTS = (
-    Path("C:/Windows/Fonts/segoeui.ttf"),
     Path("C:/Windows/Fonts/tahoma.ttf"),
+    Path("C:/Windows/Fonts/segoeui.ttf"),
     Path("C:/Windows/Fonts/arial.ttf"),
     Path("C:/Windows/Fonts/calibri.ttf"),
 )

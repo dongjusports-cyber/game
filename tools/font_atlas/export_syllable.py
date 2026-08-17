@@ -77,20 +77,67 @@ def assign_big5_codes(syllables: list[str], start_lead: int = 0xA3, start_trail:
 
 def assign_cjk_codes(
     syllables: list[str],
-    start_lead: int,
-    start_trail: int,
+    start_lead: int = 0,
+    start_trail: int = 0,
     encoding: str = "gbk",
+    blocked: set[tuple[int, int]] | None = None,
+    scheme: str = "safe",
 ) -> dict[str, tuple[int, int]]:
-    if encoding == "big5":
-        return assign_big5_codes(syllables, start_lead, start_trail)
-    return assign_gbk_codes(syllables, start_lead, start_trail)
+    if scheme == "legacy":
+        if encoding == "big5":
+            lead, trail = start_lead or 0xA3, start_trail or 0xBF
+            return assign_big5_codes(syllables, lead, trail)
+        lead, trail = start_lead or 0xB0, start_trail or 0xA1
+        return assign_gbk_codes(syllables, lead, trail)
+    from cjk_safe import assign_safe_codes
+
+    return assign_safe_codes(syllables, encoding, blocked)
+
+
+def assign_cjk_codes_append(
+    existing: dict[str, tuple[int, int]],
+    new_syllables: list[str],
+    start_lead: int = 0,
+    start_trail: int = 0,
+    encoding: str = "gbk",
+    blocked: set[tuple[int, int]] | None = None,
+    scheme: str = "safe",
+) -> dict[str, tuple[int, int]]:
+    """Giữ mã đã gán; chỉ cấp slot mới."""
+    if scheme == "legacy":
+        mapping = dict(existing)
+        used = set(existing.values())
+        slots = (
+            iter_big5_slots(start_lead or 0xA3, start_trail or 0xBF)
+            if encoding == "big5"
+            else iter_gbk_slots(start_lead or 0xB0, start_trail or 0xA1)
+        )
+        try:
+            for syl in new_syllables:
+                if syl in mapping:
+                    continue
+                while True:
+                    lead, trail = next(slots)
+                    if (lead, trail) not in used:
+                        mapping[syl] = (lead, trail)
+                        used.add((lead, trail))
+                        break
+        except StopIteration as exc:
+            raise ValueError(
+                f"Hết slot {encoding.upper()}: đã gán {len(mapping)} tiếng"
+            ) from exc
+        return mapping
+    from cjk_safe import assign_safe_codes
+
+    return assign_safe_codes(new_syllables, encoding, blocked, existing=existing)
 
 
 def write_syllable_map_json(out: Path, glyphs: list[SyllableGlyph], meta: dict | None = None) -> None:
     data: dict = {
         "version": 1,
         "mode": "syllable",
-        "encoding": "gbk",
+        "encoding": (meta or {}).get("encoding", "gbk"),
+        "slot_scheme": (meta or {}).get("slot_scheme", ""),
         "glyph_count": len(glyphs),
         "syllables": [
             {
@@ -151,6 +198,15 @@ def write_syllable_header(out: Path, glyphs: list[SyllableGlyph], cell_w: int, c
             f'    {{"{esc}", 0x{g.gbk_lead:02X}, 0x{g.gbk_trail:02X}, '
             f"{g.x}, {g.y}, {g.width}, {g.height}, {g.advance}}},"
         )
+    lines.append("};")
+    lines.append("")
+    lines.append("typedef struct { uint16_t code; uint16_t index; } ViSyllableCode;")
+    lines.append(f"#define VI_SYLLABLE_CODE_COUNT {len(glyphs)}")
+    ordered = sorted(enumerate(glyphs), key=lambda it: (it[1].gbk_lead << 8) | it[1].gbk_trail)
+    lines.append("static const ViSyllableCode VI_SYLLABLE_CODES[] = {")
+    for i, g in ordered:
+        code = (g.gbk_lead << 8) | g.gbk_trail
+        lines.append(f"    {{0x{code:04X}, {i}}},")
     lines.append("};")
     lines.append("")
     out.write_text("\n".join(lines), encoding="utf-8")

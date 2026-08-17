@@ -1,14 +1,41 @@
 #!/usr/bin/env python3
-"""Kiểm tra deploy Sango2 syllable — PAT glyph 982 (Tao) đã patch chưa."""
+"""Kiểm tra deploy Sango2 syllable — PAT chứa glyph map hiện tại."""
 
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
 ADAPTER = Path(__file__).resolve().parent
-DEFAULT_GAME = ADAPTER.parents[2] / "games" / "MyRPG"
+DEFAULT_GAME = Path(r"D:\Game\SANGO2")
+REC16 = 32
+HDR = 2
+
+
+def _find_header(data: bytes, lead: int, trail: int) -> int:
+    key = bytes([lead, trail])
+    n = len(data) // REC16
+    for i in range(n):
+        if data[i * REC16 : i * REC16 + HDR] == key:
+            return i
+    return -1
+
+
+def _probe_glyph_index(game: Path, pat_data: bytes) -> tuple[int, str] | None:
+    map_path = game / "font" / "syllable_map.json"
+    if not map_path.exists():
+        return None
+    data = json.loads(map_path.read_text(encoding="utf-8"))
+    syllables = data.get("syllables") or []
+    if not syllables:
+        return None
+    first = syllables[0]
+    lead = int(first.get("gbk_lead") or int(str(first["gbk"])[:2], 16))
+    trail = int(first.get("gbk_trail") or int(str(first["gbk"])[2:4], 16))
+    idx = _find_header(pat_data, lead, trail)
+    return idx, str(first.get("text") or first.get("gbk"))
 
 
 def verify(game: Path) -> int:
@@ -36,11 +63,23 @@ def verify(game: Path) -> int:
         ok = False
 
     pat_s_data = pat_s.read_bytes()
-    if pat_s_data[982 * 32 : 983 * 32] == b"\x00" * 32:
-        print("FAIL: glyph slot 982 (Tao/A768) trống — pipeline lỗi")
+    probe = _probe_glyph_index(game, pat_s_data)
+    if probe is None:
+        print("FAIL: thiếu font/syllable_map.json — không kiểm được glyph")
         ok = False
     else:
-        print("OK: glyph slot 982 (Tao) đã có syllable trong SYLLABLE.PAT")
+        idx, label = probe
+        if idx < 0:
+            print(f"FAIL: không thấy header Big5 của '{label}' trong PAT")
+            ok = False
+        else:
+            bmp = pat_s_data[idx * REC16 + HDR : (idx + 1) * REC16]
+            hdr = pat_s_data[idx * REC16 : idx * REC16 + HDR]
+            if bmp == b"\x00" * len(bmp):
+                print(f"FAIL: glyph {idx} ({label}) bitmap trống")
+                ok = False
+            else:
+                print(f"OK: glyph {idx} ({label}) header={hdr.hex()} bitmap da va")
 
     if exe_p.exists():
         if exe.exists() and exe.read_bytes() == exe_p.read_bytes():

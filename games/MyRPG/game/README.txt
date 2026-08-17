@@ -1,20 +1,19 @@
-Tam Quoc Chi 2 (Sango II) — tat ca trong mot cho
-=================================================
+Tam Quoc Chi 2 (Sango II)
+=========================
 
-SANGO2\              Game da cai (SAN2.EXE, font, data...)
-repo\                Tool viet hoa (git)
-logs\                Log cai dat (co the xoa)
-_crack\              Tam thoi khi Apply Crack (co the xoa)
+SANGO2\     Game da cai (SAN2-VN.EXE + font syllable)
+patch\      Ban EXE da va (toolkit)
 
-Choi game:
-  Play Sango2 VN.bat
+Choi:
+  Play Sango2 Syllable.bat
+  hoac PLAY.bat
 
-Cai dat lan dau:
-  Install Sango2.bat  ->  Apply Crack.bat
+Dia nhac (bat buoc):
+  D:\Game\SAN\CD-ROM\restored\Sango2_disc.cue + Sango2_disc.bin
 
-Build ban dich:
-  repo\scripts\build_vn_release.bat
+DOSBox-X mount:
+  C: = thu muc nay
+  D: = SAN\CD-ROM\restored (24 track Redbook)
 
-CD image (dat vao CD-ROM\):
-  games\MyRPG\game\CD-ROM\Sango2.cue + Sango2.bin
-  (hoac copy noi dung dia CD vao thu muc CD-ROM)
+Can DOSBox-X: https://dosbox-x.com/
+Phim: Alt+Enter fullscreen | Ctrl+F9 thoat

@@ -25,6 +25,12 @@ from pathlib import Path
 
 TOOLKIT = Path(__file__).resolve().parent
 
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, OSError):
+        pass
+
 
 def load_game_config(game_root: Path) -> dict:
     cfg_path = game_root / "dich.game.json"
@@ -69,25 +75,10 @@ def cmd_extract(args) -> int:
     game_dir = args.game / cfg["paths"]["game_dir"]
     out = args.game / cfg["files"]["extracted"]
     out.parent.mkdir(parents=True, exist_ok=True)
-
-    # Tìm binary lớn nhất trong game/
-    candidates = list(game_dir.glob("*.exe")) + list(game_dir.glob("*.dat")) + list(game_dir.glob("*.bin"))
-    if not candidates:
-        skip = {"cd-rom", "sango2", "_crack", "logs"}
-        candidates = [
-            p for p in game_dir.rglob("*")
-            if p.suffix.lower() in (".exe", ".dat", ".bin", ".pak")
-            and not any(part.lower() in skip for part in p.parts)
-        ]
-    if not candidates:
-        print(f"Không tìm thấy binary trong {game_dir}", file=sys.stderr)
-        return 1
-
-    target = max(candidates, key=lambda p: p.stat().st_size)
     return _run([
         sys.executable, str(TOOLKIT / "tools/l10n/extract_strings.py"),
-        str(target), "-e", cfg["encoding"], "-o", str(out),
-    ], f"Extract từ {target.name}")
+        str(game_dir), "-e", cfg["encoding"], "-o", str(out), "--all",
+    ], f"Extract CJK từ {game_dir}")
 
 
 def _is_syllable_mode(cfg: dict) -> bool:
@@ -161,14 +152,17 @@ def cmd_build_font_syllable(args) -> int:
     enc = cfg.get("encoding", "gbk")
     if enc == "gb2312":
         enc = "gbk"
-    if enc in ("gbk", "big5"):
+    if enc in ("gbk", "big5", "shift_jis"):
         cmd += ["--encoding", enc]
-        if enc == "big5":
-            cmd += ["--gbk-start", "A3BF"]
+    extracted = args.game / cfg["files"]["extracted"]
+    if extracted.exists():
+        cmd += ["--avoid", str(extracted)]
     if vi_csv.exists():
         cmd += ["--csv", str(vi_csv)]
     if insured.exists():
         cmd += ["--csv", str(insured)]
+    if getattr(args, "rebuild", False):
+        cmd.append("--rebuild")
 
     preview = "Chào mừng đến Trung Quốc — HP MP"
     if vi_csv.exists():
@@ -253,6 +247,69 @@ def cmd_check(args) -> int:
     ], "Kiểm tra tràn UI")
 
 
+def cmd_patch(args) -> int:
+    cfg = load_game_config(args.game)
+    if cfg.get("game_adapter") == "sango2":
+        return cmd_sango2(argparse.Namespace(
+            game=args.game, patch_exe=True, patch_font=True, deploy=False,
+        ))
+    patch = cfg.get("patch") or {}
+    font_dir = args.game / cfg["paths"]["font_dir"]
+    smap = font_dir / "syllable_map.json"
+    vi = args.game / cfg["files"]["translated"]
+    extracted = args.game / cfg["files"]["extracted"]
+    rc = 0
+    for t in patch.get("targets") or []:
+        src = args.game / t["src"]
+        out = args.game / t.get("out", f"patch/{Path(t['src']).name}")
+        if not src.exists():
+            print(f"Bỏ patch — thiếu {src}", file=sys.stderr)
+            continue
+        cmd = [
+            sys.executable, str(TOOLKIT / "tools/l10n/patch_binary.py"),
+            "--bin", str(src), "--extracted", str(extracted), "--vi", str(vi),
+            "--map", str(smap), "-o", str(out),
+        ]
+        if t.get("file_filter"):
+            cmd += ["--file-filter", str(t["file_filter"])]
+        rc = _run(cmd, f"Patch {src.name}") or rc
+    font = patch.get("font") or {}
+    formula = font.get("formula")
+    for f in font.get("files") or []:
+        src = args.game / f["src"]
+        out = args.game / f.get("out", str(src) + ".vi")
+        if not src.exists() or not formula:
+            continue
+        cmd = [
+            sys.executable, str(TOOLKIT / "tools/font_atlas/patch_bitmap.py"),
+            "--font", str(src), "--font-dir", str(font_dir), "-o", str(out),
+            "--formula", formula,
+            "--cell", str(f.get("cell", cfg.get("cell_width", 16))),
+            "--glyph-bytes", str(f.get("glyph_bytes", 32)),
+            "--symbol-lead-max", str(f.get("symbol_lead_max", 0)),
+        ]
+        rc = _run(cmd, f"Patch font {src.name}") or rc
+    return rc
+
+
+def cmd_glyphs_export(args) -> int:
+    cfg = load_game_config(args.game)
+    return _run([
+        sys.executable, str(TOOLKIT / "tools/font_atlas/glyph_overrides.py"),
+        "export", "--font-dir", str(args.game / cfg["paths"]["font_dir"]),
+    ], "Xuất glyph tiếng dài → font/overrides")
+
+
+def cmd_glyphs_import(args) -> int:
+    cfg = load_game_config(args.game)
+    _run([
+        sys.executable, str(TOOLKIT / "tools/font_atlas/glyph_overrides.py"),
+        "import", "--font-dir", str(args.game / cfg["paths"]["font_dir"]),
+    ], "Nhận overrides")
+    args.rebuild = True
+    return cmd_build_font_syllable(args)
+
+
 def cmd_sango2(args) -> int:
     cmd = [
         sys.executable, str(TOOLKIT / "tools/adapters/sango2/pipeline.py"),
@@ -264,6 +321,8 @@ def cmd_sango2(args) -> int:
         cmd.append("--patch-font")
     if args.deploy:
         cmd.append("--deploy")
+    if getattr(args, "rebuild", False):
+        cmd.append("--rebuild")
     return _run(cmd, "Sango2 syllable pipeline")
 
 
@@ -282,7 +341,11 @@ def cmd_sango2_verify(args) -> int:
 
 
 def cmd_sango2_cd(args) -> int:
-    ccd = args.game / "game" / "CD-ROM" / "Sango2.ccd"
+    cfg = load_game_config(args.game) if (args.game / "dich.game.json").exists() else {}
+    rel = (cfg.get("disc") or {}).get("ccd", "Sango2/Sango2.ccd")
+    ccd = args.game / rel
+    if not ccd.exists():
+        ccd = args.game / "game" / "CD-ROM" / "Sango2.ccd"
     cmd = [
         sys.executable, str(TOOLKIT / "tools/adapters/sango2/analyze_cd.py"),
         "--ccd", str(ccd),
@@ -315,6 +378,8 @@ def cmd_pipeline(args) -> int:
             return cmd_encode(a)
 
         steps.append(cmd_encode_insured)
+    if (cfg.get("patch") or {}).get("targets") or (cfg.get("patch") or {}).get("font"):
+        steps.append(cmd_patch)
     if args.with_check:
         steps.append(cmd_check)
     for fn in steps:
@@ -377,9 +442,14 @@ def main() -> int:
         ("fit", "Tối ưu chuỗi 3 tầng bảo hiểm", cmd_fit),
         ("check", "Kiểm tra tràn UI", cmd_check),
         ("status", "Xem trạng thái workspace", cmd_status),
+        ("patch", "Vá binary + font bitmap theo dich.game.json", cmd_patch),
+        ("glyphs-export", "Xuất PNG tiếng dài ra font/overrides", cmd_glyphs_export),
+        ("glyphs-import", "Nhúng PNG overrides vào atlas", cmd_glyphs_import),
     ]:
         p = sub.add_parser(name, help=help_text)
         p.add_argument("--game", type=Path, required=True)
+        if name in ("build-font", "build-font-syllable", "glyphs-import"):
+            p.add_argument("--rebuild", action="store_true", help="Vẽ lại toàn bộ font, bỏ cache")
         p.set_defaults(func=func)
 
     p_encode = sub.add_parser("encode", help="Encode bản dịch → byte GBK syllable")
@@ -390,6 +460,7 @@ def main() -> int:
     p_pipe = sub.add_parser("pipeline", help="extract → build-font → fit [→ encode nếu syllable]")
     p_pipe.add_argument("--game", type=Path, required=True)
     p_pipe.add_argument("--with-check", action="store_true")
+    p_pipe.add_argument("--rebuild", action="store_true", help="Rebuild font toàn bộ")
     p_pipe.set_defaults(func=cmd_pipeline)
 
     p_sango2 = sub.add_parser("sango2", help="Pipeline Sango II syllable có dấu")
@@ -397,6 +468,7 @@ def main() -> int:
     p_sango2.add_argument("--patch-exe", action="store_true")
     p_sango2.add_argument("--patch-font", action="store_true")
     p_sango2.add_argument("--deploy", action="store_true", help="Deploy EXE+PAT vào SANGO2 sau patch")
+    p_sango2.add_argument("--rebuild", action="store_true", help="Vẽ lại toàn bộ atlas font")
     p_sango2.set_defaults(func=cmd_sango2)
 
     p_sd = sub.add_parser("sango2-deploy", help="Copy SAN2-SYLLABLE + FONT* vào SANGO2")

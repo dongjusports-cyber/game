@@ -9,7 +9,8 @@ import json
 import sys
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parents[3] / "games" / "MyRPG" / "game" / "repo"
+_TOOLKIT = Path(__file__).resolve().parents[3]
+REPO = _TOOLKIT / "games" / "MyRPG" / "game" / "repo"
 sys.path.insert(0, str(REPO / "tools"))
 from extract_san2 import extract_exe  # noqa: E402
 
@@ -70,8 +71,15 @@ def main() -> int:
     strings = args.game / "strings"
     strings.mkdir(parents=True, exist_ok=True)
 
-    local_json = args.game / "game" / "repo" / "translations" / "extracted"
-    json_dir = args.json_dir or (local_json if local_json.exists() else (REPO / "translations" / "extracted"))
+    candidates = []
+    if args.json_dir:
+        candidates.append(args.json_dir)
+    candidates.extend([
+        Path(r"D:\Game\SAN\repo") / "translations" / "extracted",
+        args.game / "game" / "repo" / "translations" / "extracted",
+        REPO / "translations" / "extracted",
+    ])
+    json_dir = next((p for p in candidates if p.exists()), candidates[0])
     exe = args.game / "game" / "SANGO2" / "SAN2.EXE"
 
     if json_dir.exists():

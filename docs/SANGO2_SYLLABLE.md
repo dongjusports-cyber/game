@@ -52,29 +52,14 @@ Play Sango2 Syllable.bat
 - `FONT16-SYLLABLE.PAT` → `FONT16.PAT` + `FONT16-VN.PAT`
 - `FONT24-SYLLABLE.PAT` → `FONT24.PAT`
 
-### Sửa đường dẫn DOSBox
+### Chơi (DOSBox-X + nhạc CD)
 
-Mở `games\MyRPG\game\play_syllable.conf` — dòng `mount c` phải trỏ đúng:
-```
-mount c "D:\Game\VigameV1.0\games\MyRPG\game"
-```
+Chạy `Play Sango2 Syllable.bat` — tự mount:
 
-**Không** dùng `play_vn.conf` cũ (trỏ `D:\Game\SAN` — sai thư mục).
+- `C:` = thư mục game
+- `D:` = `D:\Game\SAN\CD-ROM\restored\Sango2_disc.cue` (24 track Redbook)
 
-### CD-ROM (nhạc hay)
-
-Đĩa gốc: **CD-ROM vật lý** → rip **CloneCD** → 3 file `.ccd + .img + .sub` (1 đĩa ảo).
-
-- Track 1 DATA: 11 game + `CRACK/` + file cài Sango2
-- Track 2–25 AUDIO Redbook: nhạc nền (rút CD = mất nhạc)
-
-```powershell
-git lfs pull
-python dich.py sango2-cd --game games\MyRPG restore --copy
-Play Sango2 Syllable.bat
-```
-
-Chi tiết: `games/MyRPG/game/CD-ROM/README.txt`
+Không dùng `Play Sango2 VN.bat` / `play.conf` cũ.
 
 ### Kiểm tra
 

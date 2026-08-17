@@ -18,8 +18,8 @@
     "insured": "strings/insured.csv",
     "encoded": "strings/vi.gbk.csv"
   },
-  "notes": "Game Big5 (Tam Quoc Chi 2). Dich qua D:\\Game\\SAN\\repo\\ — build_patch.py + patch_font_latin.py. CD: ..\\MyRPG\\game\\Sango2\\",
+  "notes": "Workspace da chuyen sang D:\\Game\\SANGO2 (dia goc + patch VN).",
   "toolkit": "D:\\Game\\VigameV1.0",
-  "game_install": "D:\\Game\\SAN\\SANGO2",
-  "translation_repo": "D:\\Game\\SAN\\repo"
+  "game_install": "D:\\Game\\SANGO2\\game\\SANGO2",
+  "translation_repo": "D:\\Game\\SANGO2\\game\\repo"
 }

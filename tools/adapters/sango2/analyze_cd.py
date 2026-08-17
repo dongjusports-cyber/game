@@ -54,9 +54,13 @@ def parse_ccd(path: Path) -> dict:
     return {"tracks": tracks, "end_lba": end_lba, "volume_hint": "PIONEERV01"}
 
 
-def lba_to_msf(lba: int) -> str:
-    """MSF cho file CUE (Red Book: +150 pregap)."""
-    lba += 150
+def lba_to_msf(lba: int, disc_time: bool = False) -> str:
+    """MSF cho CUE: mặc định tính từ đầu FILE (LBA 0 = 00:00:00).
+
+    disc_time=True mới cộng 150 (pregap Red Book) — không dùng cho imgmount.
+    """
+    if disc_time:
+        lba += 150
     f = lba % 75
     s = (lba // 75) % 60
     m = lba // 75 // 60
@@ -167,7 +171,7 @@ def cmd_analyze(args) -> int:
     print(f"Thư mục game/demo: {len(games)}")
     for name in sorted(games):
         print(f"  [DIR] {name}")
-    print("  [DIR] CRACK  ← copy vào SANGO2 sau cài đặt")
+    print("  [DIR] CRACK")
     for key in ("SANGO.WAV", "INSTALL.BAT", "SAN2.GRP"):
         for n, d, e, s in root:
             if n.upper() == key:

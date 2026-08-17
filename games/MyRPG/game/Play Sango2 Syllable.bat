@@ -1,4 +1,3 @@
 @echo off
-REM Wrapper — goi PLAY.bat
-cd /d "%~dp0"
-call "%~dp0PLAY.bat"
+echo Da chuyen sang D:\Game\SANGO2
+call "D:\Game\SANGO2\PLAY-VN.bat"

@@ -37,24 +37,24 @@ python3 dich.py encode --game PATH
 python3 tools/l10n/syllable_encode.py --map font/syllable_map.json --text "Trung Quốc"
 ```
 
-## GBK mapping
+## Ánh xạ 2-byte (không đụng chữ Hán)
 
-- Bắt đầu slot: `B0A1` (có thể đổi `--gbk-start`)
-- Mỗi tiếng unique → 1 slot tuần tự
-- Tra cứu: `font/syllable_index.txt`
+Scheme `safe-v1` — **không** đi từ `B0A1` / `A440` (chữ Hán thông dụng).
 
-```
-0  B0A1  Chào
-1  B0A2  mừng
-2  B0A3  đến
-...
-```
+| Encoding | Tránh | Duyệt |
+|----------|--------|--------|
+| **Big5** (DOS Đài) | Lead A1–A3 (dấu câu, số, UI) + mã còn trong `extracted.csv` | Từ **F5FE lùi** tới A4 (vùng chữ hiếm, vừa FONT16.PAT 13354) |
+| **GBK/GB2312** (DOS/Win95 TQ) | Lead A1–A9 (ký hiệu GB) + mã gốc | Từ **F7FE lùi** tới AA |
+
+`python dich.py build-font --game PATH` tự truyền `--avoid strings/extracted.csv`.
+
+Muốn slot cũ (dễ đụng): `--legacy-slots`.
 
 ## Render font
 
-- Auto-fit: tiếng ngắn (`Quốc`) → font to; tiếng dài (`nghiệp`) → font nhỏ
-- Upscale 6× Pillow → LANCZOS downscale 16×16
-- Cả tiếng vẽ 1 lần → dấu không bị tách
+- Auto-fit + letterbox: tiếng dài (`nghiệp`) thu vừa ô, **lề 1px** không cắt mép
+- Render 8× → LANCZOS → **1-bit** (FONT DOS/Win95); làm dày nét trước khi xuống 12/16px
+- Cả tiếng vẽ 1 lần (NFC) → dấu thanh không rời glyph
 
 ## Output files
 

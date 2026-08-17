@@ -21,9 +21,10 @@ def run(cmd: list[str], desc: str) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sango2 syllable pipeline (có dấu)")
     parser.add_argument("--game", type=Path, required=True)
-    parser.add_argument("--patch-exe", action="store_true")
     parser.add_argument("--patch-font", action="store_true")
+    parser.add_argument("--patch-exe", action="store_true")
     parser.add_argument("--deploy", action="store_true", help="Copy EXE+PAT vào SANGO2 sau patch")
+    parser.add_argument("--rebuild", action="store_true", help="Vẽ lại toàn bộ atlas font")
     args = parser.parse_args()
 
     game = args.game.resolve()
@@ -33,14 +34,20 @@ def main() -> int:
     patch_dir = game / "patch"
     patch_dir.mkdir(exist_ok=True)
 
+    font_cmd = [
+        sys.executable, str(TOOLKIT / "tools/font_atlas/generate_syllable.py"),
+        "--profile", str(TOOLKIT / "profiles/win95_16_syllable.json"),
+        "--csv", str(strings / "vi.csv"), "--out", str(font_dir),
+        "--encoding", "big5", "--avoid", str(strings / "extracted.csv"),
+    ]
+    if args.rebuild:
+        font_cmd.append("--rebuild")
     steps = [
-        ([sys.executable, str(ADAPTER / "extract_to_csv.py"), "--game", str(game)],
+        ([sys.executable, str(ADAPTER / "extract_to_csv.py"),
+          "--game", str(game),
+          "--json-dir", r"D:\Game\SAN\repo\translations\extracted"],
          "Extract JSON/EXE → CSV"),
-        ([sys.executable, str(TOOLKIT / "tools/font_atlas/generate_syllable.py"),
-          "--profile", str(TOOLKIT / "profiles/win95_16_syllable.json"),
-          "--csv", str(strings / "vi.csv"), "--out", str(font_dir),
-          "--gbk-start", "A3BF", "--encoding", "big5"],
-         "Build syllable font"),
+        (font_cmd, "Build syllable font"),
         ([sys.executable, str(TOOLKIT / "tools/l10n/syllable_encode.py"),
           "--map", str(font_dir / "syllable_map.json"),
           "--csv", str(strings / "vi.csv"), "-o", str(strings / "vi.gbk.csv")],
@@ -48,11 +55,14 @@ def main() -> int:
     ]
 
     if args.patch_font:
-        steps.append((
-            [sys.executable, str(ADAPTER / "patch_pat.py"),
-             "--game-dir", str(sango), "--font-dir", str(font_dir)],
-            "Patch FONT16/24-SYLLABLE.PAT",
-        ))
+        pat_cmd = [
+            sys.executable, str(ADAPTER / "patch_pat.py"),
+            "--game-dir", str(sango), "--font-dir", str(font_dir),
+        ]
+        original = game / "original"
+        if (original / "FONT16.PAT").exists():
+            pat_cmd += ["--original-dir", str(original)]
+        steps.append((pat_cmd, "Patch FONT16/24-SYLLABLE.PAT"))
 
     if args.patch_exe:
         steps.append((
@@ -85,8 +95,8 @@ def main() -> int:
             return rc
 
     if args.patch_exe or args.patch_font:
-        print("\n  Chơi game: games/MyRPG/game/Play Sango2 Syllable.bat")
-        print("  (Không dùng Play Sango2 VN.bat — trỏ repo cũ D:\\Game\\SAN)")
+        print("\n  Chơi VN:   D:\\Game\\SANGO2\\PLAY-VN.bat")
+        print("  Chơi gốc:  D:\\Game\\SANGO2\\PLAY.bat")
 
     return 0
 

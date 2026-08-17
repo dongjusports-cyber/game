@@ -2,24 +2,19 @@
 
 Game **#1** trên CD Vol.1 (1996) — menu `INSTALL.BAT` mục 1.
 
-## File CD (CloneCD)
+## Đĩa nhạc
 
 ```
-D:\Game\VigameV1.0\games\MyRPG\game\Sango2\
-  Sango2.ccd
-  Sango2.img
-  Sango2.sub
+D:\Game\SAN\CD-ROM\restored\Sango2_disc.cue
+D:\Game\SAN\CD-ROM\restored\Sango2_disc.bin
 ```
 
-## Cài đặt & crack
+## Chơi
 
 ```text
-D:\Game\SAN\Install Sango2.bat   → chọn mục 1, cài vào C:\SANGO2
-D:\Game\SAN\Apply Crack.bat      → copy thư mục CRACK\ vào thư mục cài
-D:\Game\SAN\Play Sango2 VN.bat     → chơi bản dịch
+D:\Game\SAN\Play Sango2 Syllable.bat
 ```
 
-Thư mục gọn: `D:\Game\SAN\` (game + launcher + repo dịch)
 
 ## Kỹ thuật
 
@@ -29,7 +24,7 @@ Thư mục gọn: `D:\Game\SAN\` (game + launcher + repo dịch)
 | Font | `FONT16.PAT`, `FONT24.PAT`, `CHINFONT.*` |
 | Encoding gốc | **Big5** (không phải GBK) |
 | Cell | 2 byte = 1 ô chữ Hán (16×16 / 24×24) |
-| Crack | `CRACK\` trên CD: `SAN2.EXE`, `SAN2.VMC`, `NEWHERO.DAT`, `GO8MB.BAT` |
+| EXE chính | `SAN2.EXE` / `SAN2-VN.EXE` (Big5, DOS) |
 
 ## Việt hóa (repo riêng)
 

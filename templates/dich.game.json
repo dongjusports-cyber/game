@@ -18,5 +18,12 @@
     "insured": "strings/insured.csv",
     "encoded": "strings/vi.gbk.csv"
   },
-  "notes": "font_mode: letter | syllable. Syllable: profile win95_16_syllable, 1 tiếng = 1 ô GBK."
+  "patch": {
+    "targets": [],
+    "font": {
+      "formula": "gbk_94",
+      "files": []
+    }
+  },
+  "notes": "font_mode: letter | syllable. patch.font.formula: gbk_94 | big5_dos | sjis_jis. glyphs-export để sửa tiếng dài."
 }
